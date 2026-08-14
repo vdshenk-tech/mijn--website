@@ -34,6 +34,16 @@ const translations = {
         about_placeholder_text:
             "Hier kan later tekst, een afbeelding of andere inhoud komen.",
 
+        contact_title: "Contact",
+        contact_name_label: "Naam:",
+        contact_name: "[NAAM CONTACTPERSOON]",
+        contact_email_label: "E-mail:",
+        contact_email: "[E-MAILADRES]",
+        contact_phone_label: "Telefoon:",
+        contact_phone: "[TELEFOONNUMMER]",
+        contact_address_label: "Adres:",
+        contact_address: "[ADRES]",
+
         disclaimer_title: "Disclaimer",
         disclaimer_text_1:
             "[Plaats hier de tekst van jouw disclaimer.]",
@@ -75,6 +85,16 @@ const translations = {
             "Placeholder for additional information",
         about_placeholder_text:
             "Text, an image or other content can be added here later.",
+
+        contact_title: "Contact",
+        contact_name_label: "Name:",
+        contact_name: "[CONTACT NAME]",
+        contact_email_label: "Email:",
+        contact_email: "[EMAIL ADDRESS]",
+        contact_phone_label: "Phone:",
+        contact_phone: "[PHONE NUMBER]",
+        contact_address_label: "Address:",
+        contact_address: "[ADDRESS]",
 
         disclaimer_title: "Disclaimer",
         disclaimer_text_1:
@@ -118,6 +138,16 @@ const translations = {
         about_placeholder_text:
             "Du texte, une image ou un autre contenu pourra être ajouté ici ultérieurement.",
 
+        contact_title: "Contact",
+        contact_name_label: "Nom :",
+        contact_name: "[NOM DU CONTACT]",
+        contact_email_label: "E-mail :",
+        contact_email: "[ADRESSE E-MAIL]",
+        contact_phone_label: "Téléphone :",
+        contact_phone: "[NUMÉRO DE TÉLÉPHONE]",
+        contact_address_label: "Adresse :",
+        contact_address: "[ADRESSE]",
+
         disclaimer_title: "Avertissement",
         disclaimer_text_1:
             "[Placez ici le texte de votre avertissement.]",
@@ -159,6 +189,16 @@ const translations = {
             "Platzhalter für zusätzliche Informationen",
         about_placeholder_text:
             "Hier können später Text, ein Bild oder andere Inhalte eingefügt werden.",
+
+        contact_title: "Kontakt",
+        contact_name_label: "Name:",
+        contact_name: "[NAME DER KONTAKTPERSON]",
+        contact_email_label: "E-Mail:",
+        contact_email: "[E-MAIL-ADRESSE]",
+        contact_phone_label: "Telefon:",
+        contact_phone: "[TELEFONNUMMER]",
+        contact_address_label: "Adresse:",
+        contact_address: "[ADRESSE]",
 
         disclaimer_title: "Haftungsausschluss",
         disclaimer_text_1:
