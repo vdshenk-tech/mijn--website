@@ -9,20 +9,82 @@
 <body>
 
 <header>
+
     <div class="banner">
-        <h1>[NAAM VAN DE WEBSITE]</h1>
-        <p>[Eventuele ondertitel of korte slogan]</p>
+
+        <h1 data-i18n="site_name">
+            [NAAM VAN DE WEBSITE]
+        </h1>
+
+        <p data-i18n="site_slogan">
+            [Eventuele ondertitel of korte slogan]
+        </p>
+
     </div>
+
 
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="over-ons.html">Over ons</a></li>
-            <li><a href="diensten.html">Diensten</a></li>
-            <li><a class="active" href="projecten.html">Projecten</a></li>
-            <li><a href="fotos.html">Foto's</a></li>
+
+            <li>
+                <a class="active"
+                   href="index.html"
+                   data-i18n="nav_home">
+                    Home
+                </a>
+            </li>
+
+            <li>
+                <a href="over-ons.html"
+                   data-i18n="nav_about">
+                    Over ons
+                </a>
+            </li>
+
+            <li>
+                <a href="diensten.html"
+                   data-i18n="nav_services">
+                    Diensten
+                </a>
+            </li>
+
+            <li>
+                <a href="projecten.html"
+                   data-i18n="nav_projects">
+                    Projecten
+                </a>
+            </li>
+
+            <li>
+                <a href="fotos.html"
+                   data-i18n="nav_photos">
+                    Foto's
+                </a>
+            </li>
+
+
+            <li class="language-selector">
+
+                <label for="language"
+                       data-i18n="language_label">
+                    Taal:
+                </label>
+
+                <select id="language"
+                        aria-label="Taal">
+
+                    <option value="nl">Nederlands</option>
+                    <option value="en">English</option>
+                    <option value="fr">Français</option>
+                    <option value="de">Deutsch</option>
+
+                </select>
+
+            </li>
+
         </ul>
     </nav>
+
 </header>
 
 <main>
@@ -54,6 +116,61 @@
 
  <footer>
     <p>&copy; 2026 [NAAM VAN DE WEBSITE]</p>
+<!-- Contact -->
+    <details class="contact">
+
+        <summary data-i18n="contact_title">
+            Contact
+        </summary>
+
+        <div class="contact-text">
+
+            <p>
+                <strong data-i18n="contact_name_label">
+                    Naam:
+                </strong>
+
+                <span data-i18n="contact_name">
+                    [NAAM CONTACTPERSOON]
+                </span>
+            </p>
+
+            <p>
+                <strong data-i18n="contact_email_label">
+                    E-mail:
+                </strong>
+
+                <span data-i18n="contact_email">
+                    [E-MAILADRES]
+                </span>
+            </p>
+
+            <p>
+                <strong data-i18n="contact_phone_label">
+                    Telefoon:
+                </strong>
+
+                <span data-i18n="contact_phone">
+                    [TELEFOONNUMMER]
+                </span>
+            </p>
+
+            <p>
+                <strong data-i18n="contact_address_label">
+                    Adres:
+                </strong>
+
+                <span data-i18n="contact_address">
+                    [ADRES]
+                </span>
+            </p>
+
+        </div>
+
+    </details>
+
+
+
 
     <details class="disclaimer">
         <summary>Disclaimer</summary>
@@ -69,5 +186,9 @@
         </div>
     </details>
 </footer>
+<!-- Vertalingen -->
+<script src="translation.js"></script>
+
+
 </body>
 </html>
