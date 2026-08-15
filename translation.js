@@ -18,7 +18,7 @@ const translations = {
         welcome_text: "Welkom op de website van",
 
         introduction:
-            "Hier kun je een introductietekst plaatsen. Vertel hier kort wie je bent, wat je doet en wat bezoekers op deze website kunnen vinden.",
+            "Hier kun je een <strong>introductietekst</strong> plaatsen. <em>Vertel hier kort wie je bent</em>, <mark>wat je doet en wat bezoekers op deze website kunnen vinden.</mark>",
 
         placeholder_title: "Tekst-/afbeeldingsplaceholder",
         placeholder_text:
@@ -259,7 +259,7 @@ function setLanguage(language) {
         const key = element.getAttribute("data-i18n");
 
         if (translations[language][key] !== undefined) {
-            element.textContent = translations[language][key];
+            element.innerHTML = translations[language][key];
         }
     });
 
