@@ -186,7 +186,9 @@ main {
     border-bottom: 1px solid #ddd;
 }
 
+
 /* Foto links/rechts op desktop */
+
 .photo-placeholder {
     flex: 0 0 50%;
     width: 50%;
@@ -200,7 +202,9 @@ main {
     border-radius: 6px;
 }
 
+
 /* Tekst naast de foto */
+
 .photo-description {
     flex: 1;
     min-width: 0;
@@ -223,16 +227,28 @@ footer {
     padding: 25px 20px;
     margin-top: 30px;
 
-    /* Vier gelijke kolommen */
     display: grid;
+
+    /* Standaard: 4 kolommen wanneer
+       bedrijfsgegevens zichtbaar zijn */
     grid-template-columns: repeat(4, minmax(0, 1fr));
+
     gap: 15px;
 
     align-items: start;
 }
 
 
-/* Copyrightregel over volledige breedte */
+/* Footer zonder zichtbare bedrijfsgegevens */
+
+footer.company-hidden {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+
+/* =========================
+   Copyrightregel
+   ========================= */
 
 footer > p {
     grid-column: 1 / -1;
@@ -242,7 +258,9 @@ footer > p {
 }
 
 
-/* Algemene links in footer */
+/* =========================
+   Algemene links in footer
+   ========================= */
 
 footer a {
     color: #b7d77a;
@@ -271,6 +289,17 @@ footer details {
     text-align: left;
 }
 
+
+/* Bedrijfsgegevens tijdelijk verborgen */
+
+.company.hidden {
+    display: none;
+}
+
+
+/* =========================
+   Footer - titels
+   ========================= */
 
 footer details summary {
     display: block;
@@ -314,7 +343,11 @@ footer details summary:hover {
 }
 
 
-/* Tekst in Contact */
+/* =========================
+   Tekst in Contact,
+   Bedrijfsgegevens,
+   Disclaimer & Privacy
+   ========================= */
 
 .contact-text p,
 .company-text p,
@@ -324,7 +357,9 @@ footer details summary:hover {
 }
 
 
-/* Koppen in privacyverklaring */
+/* =========================
+   Koppen in privacyverklaring
+   ========================= */
 
 .privacy-text h3 {
     color: white;
@@ -333,7 +368,9 @@ footer details summary:hover {
 }
 
 
-/* Lijsten in privacyverklaring */
+/* =========================
+   Lijsten in privacyverklaring
+   ========================= */
 
 .privacy-text ul {
     margin: 10px 0 15px;
@@ -364,9 +401,20 @@ footer details summary:hover {
     }
 
 
-    /* Footer: twee kolommen */
+    /* =========================
+       Footer: twee kolommen
+       ========================= */
 
     footer {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    /*
+       Ook wanneer bedrijfsgegevens verborgen zijn,
+       blijft de footer op tablet 2 kolommen gebruiken.
+    */
+
+    footer.company-hidden {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
@@ -463,6 +511,10 @@ footer details summary:hover {
         grid-template-columns: 1fr;
         gap: 5px;
         padding: 25px 15px;
+    }
+
+    footer.company-hidden {
+        grid-template-columns: 1fr;
     }
 
     footer > p {
