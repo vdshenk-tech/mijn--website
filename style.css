@@ -219,15 +219,30 @@ main {
 footer {
     background-color: #222;
     color: white;
-    text-align: center;
 
     padding: 25px 20px;
     margin-top: 30px;
+
+    /* Vier gelijke kolommen */
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 15px;
+
+    align-items: start;
 }
 
-footer p {
-    margin: 5px 0;
+
+/* Copyrightregel over volledige breedte */
+
+footer > p {
+    grid-column: 1 / -1;
+
+    margin: 0 0 5px;
+    text-align: center;
 }
+
+
+/* Algemene links in footer */
 
 footer a {
     color: #b7d77a;
@@ -240,27 +255,35 @@ footer a:hover {
 
 
 /* =========================
-   Footer - Contact & Disclaimer
+   Footer - Contact,
+   Bedrijfsgegevens,
+   Disclaimer & Privacy
    ========================= */
 
 footer details {
-    display: inline-block;
-    width: 45%;
-    max-width: 420px;
-    margin: 15px 10px 0;
-    vertical-align: top;
+    display: block;
+
+    width: 100%;
+    max-width: none;
+
+    margin: 0;
+
     text-align: left;
 }
 
+
 footer details summary {
     display: block;
+
     cursor: pointer;
 
     color: #b7d77a;
     font-weight: bold;
     text-align: center;
 
-    padding: 8px 10px;
+    padding: 8px 5px;
+
+    transition: color 0.2s ease;
 }
 
 footer details summary:hover {
@@ -268,41 +291,54 @@ footer details summary:hover {
 }
 
 
-/* Contact */
+/* =========================
+   Footer - inhoud
+   ========================= */
 
-.contact-text {
+.contact-text,
+.company-text,
+.disclaimer-text,
+.privacy-text {
     margin-top: 10px;
+
     padding: 15px 20px;
 
     background-color: #333;
+
     border-left: 3px solid #6b8e23;
 
     color: #ddd;
     font-size: 14px;
+
+    text-align: left;
 }
 
-.contact-text p {
+
+/* Tekst in Contact */
+
+.contact-text p,
+.company-text p,
+.disclaimer-text p,
+.privacy-text p {
     margin: 5px 0 10px;
 }
 
 
-/* Disclaimer */
+/* Koppen in privacyverklaring */
 
-.disclaimer-text {
-    margin-top: 10px;
-    padding: 15px 20px;
-
-    background-color: #333;
-    border-left: 3px solid #6b8e23;
-
-    color: #ddd;
-    font-size: 14px;
+.privacy-text h3 {
+    color: white;
+    font-size: 16px;
+    margin: 0 0 15px;
 }
 
-.disclaimer-text p {
-    margin: 5px 0 10px;
-}
 
+/* Lijsten in privacyverklaring */
+
+.privacy-text ul {
+    margin: 10px 0 15px;
+    padding-left: 20px;
+}
 
 
 /* =========================
@@ -327,7 +363,15 @@ footer details summary:hover {
         gap: 20px;
     }
 
+
+    /* Footer: twee kolommen */
+
+    footer {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
 }
+
 
 /* =========================
    Mobiele weergave
@@ -415,26 +459,43 @@ footer details summary:hover {
        Footer op mobiel
        ========================= */
 
+    footer {
+        grid-template-columns: 1fr;
+        gap: 5px;
+        padding: 25px 15px;
+    }
+
+    footer > p {
+        margin-bottom: 10px;
+    }
+
     footer details {
-        display: block;
         width: 100%;
         max-width: 500px;
-        margin: 10px auto 0;
+        margin: 0 auto;
     }
 
     footer details summary {
         text-align: center;
     }
 
-    .contact {
+    .contact,
+    .company,
+    .disclaimer,
+    .privacy {
         padding: 0 10px;
     }
 
-    .disclaimer {
-        padding: 0 10px;
+    .contact-text,
+    .company-text,
+    .disclaimer-text,
+    .privacy-text {
+        padding: 15px;
     }
 
 }
+
+
 /* =========================
    Zeer kleine schermen
    ========================= */
@@ -460,6 +521,10 @@ footer details summary:hover {
 
     .photo-item {
         padding: 20px 0;
+    }
+
+    footer {
+        padding: 20px 10px;
     }
 
 }

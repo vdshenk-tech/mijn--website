@@ -1,4 +1,5 @@
 const translations = {
+
     nl: {
         page_title_home: "Naam website - Home",
         page_title_about: "Naam website - Over ons",
@@ -39,17 +40,92 @@ const translations = {
         contact_name: "[NAAM CONTACTPERSOON]",
         contact_email_label: "E-mail:",
         contact_email: "[E-MAILADRES]",
-        contact_phone_label: "GSM:",
+        contact_phone_label: "Telefoon:",
         contact_phone: "[TELEFOONNUMMER]",
-        contact_address_label: "Website:",
+        contact_address_label: "Adres:",
         contact_address: "[ADRES]",
+
+	company_title: "Bedrijfsgegevens",
+	company_name_label: "Naam:",
+	company_name: "[NAAM BEDRIJF / ORGANISATIE]",
+	company_address_label: "Adres:",
+	company_address: "[ADRES]",
+	company_email_label: "E-mail:",
+	company_email: "[E-MAILADRES]",
+	company_phone_label: "Telefoon:",
+	company_phone: "[TELEFOONNUMMER]",
+	company_number_label: "Ondernemingsnummer:",
+	company_number: "[ONDERNEMINGSNUMMER]",
+	company_vat_label: "Btw-nummer:",
+	company_vat: "[BTW-NUMMER]",
 
         disclaimer_title: "Disclaimer",
         disclaimer_text_1:
             "[Plaats hier de tekst van jouw disclaimer.]",
         disclaimer_text_2:
-            "Bijvoorbeeld: Ondanks dat deze website met de grootste zorg is samengesteld, kan [NAAM VAN DE WEBSITE] niet garanderen dat alle informatie volledig, juist en actueel is."
+            "Bijvoorbeeld: Ondanks dat deze website met de grootste zorg is samengesteld, kan [NAAM VAN DE WEBSITE] niet garanderen dat alle informatie volledig, juist en actueel is.",
+
+        
+privacy_title: "Privacyverklaring",
+
+privacy_section_1_title: "1. Geen cookies",
+privacy_section_1_text:
+    "Onze website maakt geen gebruik van cookies. Wij plaatsen geen functionele, analytische of marketingcookies op jouw computer, telefoon of tablet. Daarom tonen wij op onze website ook geen cookiebanner.",
+
+privacy_section_1_storage:
+    "Om je taalvoorkeur te onthouden, gebruikt deze website lokale opslag (localStorage) in je browser. Hiermee wordt alleen de door jou gekozen taal opgeslagen. Deze informatie wordt niet naar onze server verzonden en wordt niet gebruikt voor tracking of marketing.",
+
+privacy_section_2_title: "2. Gegevens die wij zelf verwerken",
+privacy_section_2_text:
+    "Via deze website verzamelen of bewaren wij zelf geen persoonsgegevens. Er is geen contactformulier, geen inlogsysteem en geen database waarin persoonsgegevens van bezoekers worden opgeslagen.",
+
+privacy_section_2_email:
+    "Wanneer je contact met ons opneemt via e-mail, ontvangen wij uiteraard wel de gegevens die je ons daarbij zelf verstrekt. Deze gebruiken wij uitsluitend om je vraag of bericht te beantwoorden.",
+
+privacy_section_3_title: "3. Serverlogs van onze hostingpartij",
+privacy_section_3_text:
+    "Onze website wordt gehost door EDPnet. Wanneer je onze website bezoekt, kan de webserver van EDPnet automatisch technische gegevens registreren in zogenaamde serverlogs.",
+
+privacy_section_3_data:
+    "Het kan daarbij onder andere gaan om:",
+
+privacy_section_3_item_1:
+    "je IP-adres;",
+
+privacy_section_3_item_2:
+    "de datum en het tijdstip van je bezoek;",
+
+privacy_section_3_item_3:
+    "de pagina's die je bezoekt;",
+
+privacy_section_3_item_4:
+    "informatie over je browser en besturingssysteem.",
+
+privacy_section_3_purpose:
+    "Deze gegevens worden door de hostingpartij gebruikt voor technische en beveiligingsdoeleinden, zoals het goed laten functioneren en beveiligen van de website en het opsporen en oplossen van technische problemen of cyberaanvallen.",
+
+privacy_section_3_access:
+    "Wij hebben geen rechtstreekse toegang tot deze serverlogs, tenzij dit noodzakelijk is voor bijvoorbeeld het onderzoeken van een technisch probleem of beveiligingsincident.",
+
+privacy_section_3_edpnet:
+    "Voor meer informatie over de verwerking van persoonsgegevens door EDPnet verwijzen wij je naar het privacybeleid van EDPnet.",
+
+privacy_section_4_title: "4. Jouw rechten",
+
+privacy_section_4_text:
+    "Omdat wij via deze website zelf geen persoonsgegevens van bezoekers verzamelen of structureel bewaren, beschikken wij in de regel niet over persoonsgegevens waarop je een verzoek tot inzage, wijziging of verwijdering kunt uitoefenen.",
+
+privacy_section_4_contact:
+    "Heb je toch een vraag over de verwerking van je persoonsgegevens of over deze privacyverklaring? Neem dan contact met ons op via [E-MAILADRES].",
+
+privacy_section_5_title: "5. Wijzigingen",
+
+privacy_section_5_text:
+    "Wij kunnen deze privacyverklaring aanpassen wanneer onze website of de manier waarop wij met persoonsgegevens omgaan verandert. De meest recente versie vind je altijd op deze pagina."
+
+
     },
+
 
     en: {
         page_title_home: "Website name - Home",
@@ -91,17 +167,89 @@ const translations = {
         contact_name: "[CONTACT NAME]",
         contact_email_label: "Email:",
         contact_email: "[EMAIL ADDRESS]",
-        contact_phone_label: "Mobile:",
+        contact_phone_label: "Phone:",
         contact_phone: "[PHONE NUMBER]",
-        contact_address_label: "Website:",
+        contact_address_label: "Address:",
         contact_address: "[ADDRESS]",
+
+	company_title: "Company details",
+	company_name_label: "Name:",
+	company_name: "[COMPANY / ORGANIZATION NAME]",
+	company_address_label: "Address:",
+	company_address: "[ADDRESS]",
+	company_email_label: "Email:",
+	company_email: "[EMAIL ADDRESS]",
+	company_phone_label: "Phone:",
+	company_phone: "[PHONE NUMBER]",
+	company_number_label: "Company number:",
+	company_number: "[COMPANY NUMBER]",
+	company_vat_label: "VAT number:",
+	company_vat: "[VAT NUMBER]",
 
         disclaimer_title: "Disclaimer",
         disclaimer_text_1:
             "[Place your disclaimer text here.]",
         disclaimer_text_2:
-            "For example: Although this website has been compiled with the greatest possible care, [WEBSITE NAME] cannot guarantee that all information is complete, correct and up to date."
+            "For example: Although this website has been compiled with the greatest possible care, [WEBSITE NAME] cannot guarantee that all information is complete, correct and up to date.",
+
+privacy_title: "Privacy Policy",
+
+privacy_section_1_title: "1. No cookies",
+privacy_section_1_text:
+    "Our website does not use cookies. We do not place functional, analytical or marketing cookies on your computer, phone or tablet. Therefore, we do not display a cookie banner on our website.",
+
+privacy_section_1_storage:
+    "To remember your language preference, this website uses local storage (localStorage) in your browser. Only the language you have selected is stored. This information is not sent to our server and is not used for tracking or marketing.",
+
+privacy_section_2_title: "2. Personal data we process",
+privacy_section_2_text:
+    "We do not collect or store personal data through this website ourselves. There is no contact form, login system or database in which visitors' personal data is stored.",
+
+privacy_section_2_email:
+    "If you contact us by email, we will of course receive the information you provide in your message. We use this information solely to respond to your question or message.",
+
+privacy_section_3_title: "3. Server logs of our hosting provider",
+privacy_section_3_text:
+    "Our website is hosted by EDPnet. When you visit our website, the EDPnet web server may automatically record technical information in so-called server logs.",
+
+privacy_section_3_data:
+    "This may include, among other things:",
+
+privacy_section_3_item_1:
+    "your IP address;",
+
+privacy_section_3_item_2:
+    "the date and time of your visit;",
+
+privacy_section_3_item_3:
+    "the pages you visit;",
+
+privacy_section_3_item_4:
+    "information about your browser and operating system.",
+
+privacy_section_3_purpose:
+    "The hosting provider uses this information for technical and security purposes, such as ensuring the proper functioning and security of the website and detecting and resolving technical problems or cyberattacks.",
+
+privacy_section_3_access:
+    "We do not have direct access to these server logs unless this is necessary, for example, to investigate a technical problem or security incident.",
+
+privacy_section_3_edpnet:
+    "For more information about how EDPnet processes personal data, please refer to EDPnet's privacy policy.",
+
+privacy_section_4_title: "4. Your rights",
+
+privacy_section_4_text:
+    "Because we do not collect or routinely store visitors' personal data through this website ourselves, we generally do not have personal data that can be accessed, modified or deleted at your request.",
+
+privacy_section_4_contact:
+    "If you have any questions about the processing of your personal data or about this privacy policy, please contact us at [EMAIL ADDRESS].",
+
+privacy_section_5_title: "5. Changes",
+
+privacy_section_5_text:
+    "We may update this privacy policy if our website or the way in which we process personal data changes. The most recent version will always be available on this page."
     },
+
 
     fr: {
         page_title_home: "Nom du site - Accueil",
@@ -143,17 +291,89 @@ const translations = {
         contact_name: "[NOM DU CONTACT]",
         contact_email_label: "E-mail :",
         contact_email: "[ADRESSE E-MAIL]",
-        contact_phone_label: "Mobile:",
+        contact_phone_label: "Téléphone :",
         contact_phone: "[NUMÉRO DE TÉLÉPHONE]",
-        contact_address_label: "Site web:",
+        contact_address_label: "Adresse :",
         contact_address: "[ADRESSE]",
+
+	company_title: "Informations sur l'entreprise",
+	company_name_label: "Nom :",
+	company_name: "[NOM DE L'ENTREPRISE / ORGANISATION]",
+	company_address_label: "Adresse :",
+	company_address: "[ADRESSE]",
+	company_email_label: "E-mail :",
+	company_email: "[ADRESSE E-MAIL]",
+	company_phone_label: "Téléphone :",
+	company_phone: "[NUMÉRO DE TÉLÉPHONE]",
+	company_number_label: "Numéro d'entreprise :",
+	company_number: "[NUMÉRO D'ENTREPRISE]",
+	company_vat_label: "Numéro de TVA :",
+	company_vat: "[NUMÉRO DE TVA]",
 
         disclaimer_title: "Avertissement",
         disclaimer_text_1:
             "[Placez ici le texte de votre avertissement.]",
         disclaimer_text_2:
-            "Par exemple : Bien que ce site ait été réalisé avec le plus grand soin, [NOM DU SITE] ne peut garantir que toutes les informations sont complètes, correctes et à jour."
+            "Par exemple : Bien que ce site ait été réalisé avec le plus grand soin, [NOM DU SITE] ne peut garantir que toutes les informations sont complètes, correctes et à jour.",
+
+privacy_title: "Politique de confidentialité",
+
+privacy_section_1_title: "1. Pas de cookies",
+privacy_section_1_text:
+    "Notre site web n'utilise pas de cookies. Nous ne plaçons aucun cookie fonctionnel, analytique ou marketing sur votre ordinateur, téléphone ou tablette. Nous n'affichons donc pas de bannière de cookies sur notre site.",
+
+privacy_section_1_storage:
+    "Afin de mémoriser votre préférence linguistique, ce site utilise le stockage local (localStorage) de votre navigateur. Seule la langue que vous avez choisie est enregistrée. Ces informations ne sont pas envoyées à notre serveur et ne sont pas utilisées à des fins de suivi ou de marketing.",
+
+privacy_section_2_title: "2. Données personnelles que nous traitons",
+privacy_section_2_text:
+    "Nous ne collectons ni ne conservons nous-mêmes de données personnelles via ce site web. Il n'y a pas de formulaire de contact, de système de connexion ni de base de données contenant les données personnelles des visiteurs.",
+
+privacy_section_2_email:
+    "Si vous nous contactez par e-mail, nous recevons bien entendu les informations que vous nous fournissez dans votre message. Nous utilisons ces informations uniquement pour répondre à votre question ou à votre message.",
+
+privacy_section_3_title: "3. Journaux du serveur de notre hébergeur",
+privacy_section_3_text:
+    "Notre site web est hébergé par EDPnet. Lorsque vous visitez notre site, le serveur web d'EDPnet peut enregistrer automatiquement certaines informations techniques dans des journaux de serveur.",
+
+privacy_section_3_data:
+    "Il peut notamment s'agir de :",
+
+privacy_section_3_item_1:
+    "votre adresse IP ;",
+
+privacy_section_3_item_2:
+    "la date et l'heure de votre visite ;",
+
+privacy_section_3_item_3:
+    "les pages que vous consultez ;",
+
+privacy_section_3_item_4:
+    "des informations sur votre navigateur et votre système d'exploitation.",
+
+privacy_section_3_purpose:
+    "Ces données sont utilisées par l'hébergeur à des fins techniques et de sécurité, notamment pour assurer le bon fonctionnement et la sécurité du site et pour détecter et résoudre les problèmes techniques ou les cyberattaques.",
+
+privacy_section_3_access:
+    "Nous n'avons pas directement accès à ces journaux de serveur, sauf si cela est nécessaire, par exemple, pour examiner un problème technique ou un incident de sécurité.",
+
+privacy_section_3_edpnet:
+    "Pour plus d'informations sur le traitement des données personnelles par EDPnet, veuillez consulter la politique de confidentialité d'EDPnet.",
+
+privacy_section_4_title: "4. Vos droits",
+
+privacy_section_4_text:
+    "Comme nous ne collectons ni ne conservons régulièrement les données personnelles des visiteurs via ce site, nous ne disposons généralement pas de données personnelles pouvant faire l'objet d'une demande d'accès, de modification ou de suppression.",
+
+privacy_section_4_contact:
+    "Si vous avez des questions concernant le traitement de vos données personnelles ou cette politique de confidentialité, veuillez nous contacter à l'adresse [ADRESSE E-MAIL].",
+
+privacy_section_5_title: "5. Modifications",
+
+privacy_section_5_text:
+    "Nous pouvons modifier cette politique de confidentialité si notre site ou la manière dont nous traitons les données personnelles évolue. La version la plus récente sera toujours disponible sur cette page."
     },
+
 
     de: {
         page_title_home: "Name der Website - Startseite",
@@ -195,16 +415,87 @@ const translations = {
         contact_name: "[NAME DER KONTAKTPERSON]",
         contact_email_label: "E-Mail:",
         contact_email: "[E-MAIL-ADRESSE]",
-        contact_phone_label: "Mobil:",
+        contact_phone_label: "Telefon:",
         contact_phone: "[TELEFONNUMMER]",
-        contact_address_label: "Webseite:",
+        contact_address_label: "Adresse:",
         contact_address: "[ADRESSE]",
+
+	company_title: "Unternehmensdaten",
+	company_name_label: "Name:",
+	company_name: "[NAME DES UNTERNEHMENS / DER ORGANISATION]",
+	company_address_label: "Adresse:",
+	company_address: "[ADRESSE]",
+	company_email_label: "E-Mail:",
+	company_email: "[E-MAIL-ADRESSE]",
+	company_phone_label: "Telefon:",
+	company_phone: "[TELEFONNUMMER]",
+	company_number_label: "Unternehmensnummer:",
+	company_number: "[UNTERNEHMENSNUMMER]",
+	company_vat_label: "USt-IdNr.:",
+company_vat: "[UST-IDNR.]",
 
         disclaimer_title: "Haftungsausschluss",
         disclaimer_text_1:
             "[Fügen Sie hier den Text Ihres Haftungsausschlusses ein.]",
         disclaimer_text_2:
-            "Zum Beispiel: Obwohl diese Website mit größtmöglicher Sorgfalt erstellt wurde, kann [NAME DER WEBSITE] nicht garantieren, dass alle Informationen vollständig, korrekt und aktuell sind."
+            "Zum Beispiel: Obwohl diese Website mit größtmöglicher Sorgfalt erstellt wurde, kann [NAME DER WEBSITE] nicht garantieren, dass alle Informationen vollständig, korrekt und aktuell sind.",
+
+privacy_title: "Datenschutzerklärung",
+
+privacy_section_1_title: "1. Keine Cookies",
+privacy_section_1_text:
+    "Unsere Website verwendet keine Cookies. Wir setzen keine funktionalen, analytischen oder Marketing-Cookies auf Ihrem Computer, Telefon oder Tablet ein. Daher zeigen wir auf unserer Website auch kein Cookie-Banner an.",
+
+privacy_section_1_storage:
+    "Um Ihre Spracheinstellung zu speichern, verwendet diese Website den lokalen Speicher (localStorage) Ihres Browsers. Dabei wird ausschließlich die von Ihnen ausgewählte Sprache gespeichert. Diese Information wird nicht an unseren Server übertragen und nicht für Tracking oder Marketing verwendet.",
+
+privacy_section_2_title: "2. Personenbezogene Daten, die wir verarbeiten",
+privacy_section_2_text:
+    "Wir erheben oder speichern selbst keine personenbezogenen Daten über diese Website. Es gibt kein Kontaktformular, kein Anmeldesystem und keine Datenbank, in der personenbezogene Daten von Besuchern gespeichert werden.",
+
+privacy_section_2_email:
+    "Wenn Sie uns per E-Mail kontaktieren, erhalten wir selbstverständlich die Informationen, die Sie uns in Ihrer Nachricht mitteilen. Wir verwenden diese Informationen ausschließlich zur Beantwortung Ihrer Frage oder Nachricht.",
+
+privacy_section_3_title: "3. Serverprotokolle unseres Hostinganbieters",
+privacy_section_3_text:
+    "Unsere Website wird von EDPnet gehostet. Wenn Sie unsere Website besuchen, kann der Webserver von EDPnet automatisch technische Informationen in sogenannten Serverprotokollen erfassen.",
+
+privacy_section_3_data:
+    "Dabei kann es sich unter anderem um Folgendes handeln:",
+
+privacy_section_3_item_1:
+    "Ihre IP-Adresse;",
+
+privacy_section_3_item_2:
+    "Datum und Uhrzeit Ihres Besuchs;",
+
+privacy_section_3_item_3:
+    "die von Ihnen besuchten Seiten;",
+
+privacy_section_3_item_4:
+    "Informationen über Ihren Browser und Ihr Betriebssystem.",
+
+privacy_section_3_purpose:
+    "Der Hostinganbieter verwendet diese Daten für technische und sicherheitsbezogene Zwecke, beispielsweise zur Gewährleistung des ordnungsgemäßen Betriebs und der Sicherheit der Website sowie zur Erkennung und Behebung technischer Probleme oder Cyberangriffe.",
+
+privacy_section_3_access:
+    "Wir haben keinen direkten Zugriff auf diese Serverprotokolle, es sei denn, dies ist beispielsweise zur Untersuchung eines technischen Problems oder Sicherheitsvorfalls erforderlich.",
+
+privacy_section_3_edpnet:
+    "Weitere Informationen über die Verarbeitung personenbezogener Daten durch EDPnet finden Sie in der Datenschutzerklärung von EDPnet.",
+
+privacy_section_4_title: "4. Ihre Rechte",
+
+privacy_section_4_text:
+    "Da wir selbst keine personenbezogenen Daten von Besuchern über diese Website erheben oder regelmäßig speichern, verfügen wir in der Regel über keine personenbezogenen Daten, die auf Anfrage eingesehen, geändert oder gelöscht werden können.",
+
+privacy_section_4_contact:
+    "Wenn Sie Fragen zur Verarbeitung Ihrer personenbezogenen Daten oder zu dieser Datenschutzerklärung haben, kontaktieren Sie uns bitte unter [E-MAIL-ADRESSE].",
+
+privacy_section_5_title: "5. Änderungen",
+
+privacy_section_5_text:
+    "Wir können diese Datenschutzerklärung ändern, wenn sich unsere Website oder die Art und Weise, wie wir personenbezogene Daten verarbeiten, ändert. Die aktuellste Version finden Sie immer auf dieser Seite."
     }
 };
 
@@ -220,6 +511,7 @@ function getCurrentLanguage() {
             return savedLanguage;
         }
     } catch (error) {
+        // localStorage is niet beschikbaar
     }
 
     return defaultLanguage;
@@ -230,6 +522,7 @@ function saveLanguage(language) {
     try {
         localStorage.setItem("language", language);
     } catch (error) {
+        // localStorage is niet beschikbaar
     }
 }
 
@@ -251,16 +544,19 @@ function updatePageTitle(language) {
 
 
 function setLanguage(language) {
+
     if (!translations[language]) {
         language = defaultLanguage;
     }
 
     document.querySelectorAll("[data-i18n]").forEach(function(element) {
+
         const key = element.getAttribute("data-i18n");
 
         if (translations[language][key] !== undefined) {
             element.innerHTML = translations[language][key];
         }
+
     });
 
     document.documentElement.lang = language;
@@ -278,14 +574,18 @@ function setLanguage(language) {
 
 
 document.addEventListener("DOMContentLoaded", function() {
+
     const languageSelect = document.getElementById("language");
     const currentLanguage = getCurrentLanguage();
 
     setLanguage(currentLanguage);
 
     if (languageSelect) {
+
         languageSelect.addEventListener("change", function() {
             setLanguage(this.value);
         });
+
     }
+
 });
