@@ -1,11 +1,15 @@
- <!DOCTYPE html>
-<html lang="nl">
+<!DOCTYPE html>
+<html lang="nl" data-page="photos">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Naam website - Foto's</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <header>
@@ -27,8 +31,7 @@
         <ul>
 
             <li>
-                <a class="active"
-                   href="index.html"
+                <a href="index.html"
                    data-i18n="nav_home">
                     Home
                 </a>
@@ -56,12 +59,12 @@
             </li>
 
             <li>
-                <a href="fotos.html"
+                <a class="active"
+                   href="fotos.html"
                    data-i18n="nav_photos">
                     Foto's
                 </a>
             </li>
-
 
             <li class="language-selector">
 
@@ -89,60 +92,108 @@
 
 
 <main>
+
     <section class="content">
-        <h2>Foto's</h2>
+
+        <h2 data-i18n="photos_title">
+            Foto's
+        </h2>
+
+
+        <div class="photo-item">
+
+            <div class="photo-placeholder">
+
+                <img src="images/foto1.jpg"
+                     oncontextmenu="return false;"
+                     alt="Beschrijving van foto 1">
+
+            </div>
+
+            <div class="photo-description">
+
+                <h3 data-i18n="photo_title_1">
+                    [Titel foto]
+                </h3>
+
+                <p data-i18n="photo_text_1">
+                    [Hier komt de uitleg bij de foto.]
+                </p>
+
+            </div>
+
+        </div>
 
 
 
+        <div class="photo-item">
 
- <div class="photo-item">
-    <div class="photo-placeholder">
-	<img src="images/foto1.jpg" oncontextmenu="return false;" alt="Beschrijving van foto 1">
-    </div>
+            <div class="photo-placeholder">
 
-    <div class="photo-description">
-        <h3>[Titel foto]</h3>
-        <p>
-            [Hier komt de uitleg bij de foto.]
-        </p>
-    </div>
-</div>
+                <img src="images/foto2.jpg"
+                     oncontextmenu="return false;"
+                     alt="Beschrijving van foto 2">
+
+            </div>
+
+            <div class="photo-description">
+
+                <h3 data-i18n="photo_title_2">
+                    [Titel foto]
+                </h3>
+
+                <p data-i18n="photo_text_2">
+                    [Hier komt de uitleg bij de foto.]
+                </p>
+
+            </div>
+
+        </div>
 
 
 
- <div class="photo-item">
-    <div class="photo-placeholder">
-        <img src="images/foto2.jpg" oncontextmenu="return false;" alt="Beschrijving van foto 2">
-    </div>
+        <div class="photo-item">
 
-    <div class="photo-description">
-        <h3>[Titel foto]</h3>
-        <p>
-            [Hier komt de uitleg bij de foto.]
-        </p>
-    </div>
-</div>
+            <div class="photo-placeholder">
 
- <div class="photo-item">
-    <div class="photo-placeholder">
-        <img src="images/foto3.jpg" oncontextmenu="return false;" alt="Beschrijving van foto 3">
-    </div>
+                <img src="images/foto3.jpg"
+                     oncontextmenu="return false;"
+                     alt="Beschrijving van foto 3">
 
-    <div class="photo-description">
-        <h3>[Titel foto]</h3>
-        <p>
-            [Hier komt de uitleg bij de foto.]
-        </p>
-    </div>
-</div>
+            </div>
 
+            <div class="photo-description">
+
+                <h3 data-i18n="photo_title_3">
+                    [Titel foto]
+                </h3>
+
+                <p data-i18n="photo_text_3">
+                    [Hier komt de uitleg bij de foto.]
+                </p>
+
+            </div>
+
+        </div>
 
     </section>
+
 </main>
 
- <footer>
-    <p>&copy; 2026 [NAAM VAN DE WEBSITE]</p>
-<!-- Contact -->
+
+<footer class="company-hidden">
+
+    <p>
+        &copy; 2026
+
+        <span data-i18n="site_name">
+            [NAAM VAN DE WEBSITE]
+        </span>
+    </p>
+
+
+    <!-- Contact -->
+
     <details class="contact">
 
         <summary data-i18n="contact_title">
@@ -196,25 +247,223 @@
     </details>
 
 
+<!--
+<details class="company">
 
+    <summary data-i18n="company_title">
+        Bedrijfsgegevens
+    </summary>
+
+    <div class="company-text">
+
+        <p>
+            <strong data-i18n="company_name_label">
+                Naam:
+            </strong>
+
+            <span data-i18n="company_name">
+                [NAAM BEDRIJF / ORGANISATIE]
+            </span>
+        </p>
+
+        <p>
+            <strong data-i18n="company_address_label">
+                Adres:
+            </strong>
+
+            <span data-i18n="company_address">
+                [ADRES]
+            </span>
+        </p>
+
+        <p>
+            <strong data-i18n="company_email_label">
+                E-mail:
+            </strong>
+
+            <span data-i18n="company_email">
+                [E-MAILADRES]
+            </span>
+        </p>
+
+        <p>
+            <strong data-i18n="company_phone_label">
+                Telefoon:
+            </strong>
+
+            <span data-i18n="company_phone">
+                [TELEFOONNUMMER]
+            </span>
+        </p>
+
+        <p>
+            <strong data-i18n="company_number_label">
+                Ondernemingsnummer:
+            </strong>
+
+            <span data-i18n="company_number">
+                [ONDERNEMINGSNUMMER]
+            </span>
+        </p>
+
+        <p>
+            <strong data-i18n="company_vat_label">
+                Btw-nummer:
+            </strong>
+
+            <span data-i18n="company_vat">
+                [BTW-NUMMER]
+            </span>
+        </p>
+
+    </div>
+
+</details>
+-->
+    <!-- Disclaimer -->
 
     <details class="disclaimer">
-        <summary>Disclaimer</summary>
+
+        <summary data-i18n="disclaimer_title">
+            Disclaimer
+        </summary>
+
         <div class="disclaimer-text">
-            <p>
+
+            <p data-i18n="disclaimer_text_1">
                 [Plaats hier de tekst van jouw disclaimer.]
             </p>
-            <p>
+
+            <p data-i18n="disclaimer_text_2">
                 Bijvoorbeeld: Ondanks dat deze website met de grootste
                 zorg is samengesteld, kan [NAAM VAN DE WEBSITE] niet
-                garanderen dat alle informatie volledig, juist en actueel is.
+                garanderen dat alle informatie volledig, juist en
+                actueel is.
             </p>
-        </div>
-    </details>
-</footer>
-<!-- Vertalingen -->
-<script src="translation.js"></script>
 
+        </div>
+
+    </details>
+
+
+    <!-- Privacyverklaring -->
+
+    <details class="privacy">
+
+        <summary data-i18n="privacy_title">
+            Privacyverklaring
+        </summary>
+
+        <div class="privacy-text">
+
+            <h3 data-i18n="privacy_section_1_title">
+                1. Geen cookies
+            </h3>
+
+            <p data-i18n="privacy_section_1_text">
+                Onze website maakt geen gebruik van cookies.
+            </p>
+
+            <p data-i18n="privacy_section_1_storage">
+                Om je taalvoorkeur te onthouden, gebruikt deze website
+                lokale opslag (localStorage) in je browser.
+            </p>
+
+
+            <h3 data-i18n="privacy_section_2_title">
+                2. Gegevens die wij zelf verwerken
+            </h3>
+
+            <p data-i18n="privacy_section_2_text">
+                Via deze website verzamelen of bewaren wij zelf geen persoonsgegevens.
+            </p>
+
+            <p data-i18n="privacy_section_2_email">
+                Wanneer je contact met ons opneemt via e-mail, ontvangen wij uiteraard
+                wel de gegevens die je ons daarbij zelf verstrekt.
+            </p>
+
+
+            <h3 data-i18n="privacy_section_3_title">
+                3. Serverlogs van onze hostingpartij
+            </h3>
+
+            <p data-i18n="privacy_section_3_text">
+                Onze website wordt gehost door EDPnet.
+            </p>
+
+            <p data-i18n="privacy_section_3_data">
+                Het kan daarbij onder andere gaan om:
+            </p>
+
+            <ul>
+
+                <li data-i18n="privacy_section_3_item_1">
+                    je IP-adres;
+                </li>
+
+                <li data-i18n="privacy_section_3_item_2">
+                    de datum en het tijdstip van je bezoek;
+                </li>
+
+                <li data-i18n="privacy_section_3_item_3">
+                    de pagina's die je bezoekt;
+                </li>
+
+                <li data-i18n="privacy_section_3_item_4">
+                    informatie over je browser en besturingssysteem.
+                </li>
+
+            </ul>
+
+            <p data-i18n="privacy_section_3_purpose">
+                Deze gegevens worden door de hostingpartij gebruikt voor technische
+                en beveiligingsdoeleinden.
+            </p>
+
+            <p data-i18n="privacy_section_3_access">
+                Wij hebben geen rechtstreekse toegang tot deze serverlogs.
+            </p>
+
+            <p data-i18n="privacy_section_3_edpnet">
+                Voor meer informatie over de verwerking van persoonsgegevens door EDPnet
+                verwijzen wij naar het privacybeleid van EDPnet.
+            </p>
+
+
+            <h3 data-i18n="privacy_section_4_title">
+                4. Jouw rechten
+            </h3>
+
+            <p data-i18n="privacy_section_4_text">
+                Omdat wij via deze website zelf geen persoonsgegevens van bezoekers
+                verzamelen of structureel bewaren, beschikken wij in de regel niet
+                over persoonsgegevens waarop je een verzoek kunt uitoefenen.
+            </p>
+
+            <p data-i18n="privacy_section_4_contact">
+                Heb je toch een vraag over de verwerking van je persoonsgegevens?
+            </p>
+
+
+            <h3 data-i18n="privacy_section_5_title">
+                5. Wijzigingen
+            </h3>
+
+            <p data-i18n="privacy_section_5_text">
+                Wij kunnen deze privacyverklaring aanpassen wanneer onze website
+                of de manier waarop wij met persoonsgegevens omgaan verandert.
+            </p>
+
+        </div>
+
+    </details>
+
+</footer>
+
+
+
+<script src="translation.js?v=5"></script>
 
 </body>
 </html>

@@ -3,6 +3,11 @@ const translations = {
     nl: {
         page_title_home: "Naam website - Home",
         page_title_about: "Naam website - Over ons",
+	page_title_photos: "Naam website - Foto's",
+	page_title_projects: "Naam website - Projecten",
+page_title_services: "Naam website - Diensten",
+projects_title: "Projecten",
+photos_title: "Foto's",
 
         site_name: "[NAAM VAN DE WEBSITE]",
         site_slogan: "[Eventuele ondertitel of korte slogan]",
@@ -12,6 +17,16 @@ const translations = {
         nav_services: "Diensten",
         nav_projects: "Projecten",
         nav_photos: "Foto's",
+photos_title: "Foto's",
+
+photo_title_1: "[Titel foto]",
+photo_text_1: "[Hier komt de uitleg bij de foto.]",
+
+photo_title_2: "[Titel foto]",
+photo_text_2: "[Hier komt de uitleg bij de foto.]",
+
+photo_title_3: "[Titel foto]",
+photo_text_3: "[Hier komt de uitleg bij de foto.]",
 
         language_label: "Taal:",
 
@@ -128,17 +143,33 @@ privacy_section_5_text:
 
 
     en: {
-        page_title_home: "Website name - Home",
-        page_title_about: "Website name - About us",
+page_title_home: "Website name - Home",
+page_title_about: "Website name - About us",
+page_title_projects: "Website name - Projects",
+page_title_photos: "Website name - Photos",
+page_title_services: "Website name - Services",
+
+projects_title: "Projects",
+photos_title: "Photos",
 
         site_name: "[WEBSITE NAME]",
         site_slogan: "[Optional subtitle or short slogan]",
+photos_title: "Photos",
 
+photo_title_1: "[Photo title]",
+photo_text_1: "[Description of the photo.]",
+
+photo_title_2: "[Photo title]",
+photo_text_2: "[Description of the photo.]",
+
+photo_title_3: "[Photo title]",
+photo_text_3: "[Description of the photo.]",
         nav_home: "Home",
         nav_about: "About us",
         nav_services: "Services",
         nav_projects: "Projects",
         nav_photos: "Photos",
+
 
         language_label: "Language:",
 
@@ -252,12 +283,27 @@ privacy_section_5_text:
 
 
     fr: {
-        page_title_home: "Nom du site - Accueil",
-        page_title_about: "Nom du site - À propos",
 
+page_title_home: "Nom du site - Accueil",
+page_title_about: "Nom du site - À propos",
+page_title_projects: "Nom du site - Projets",
+page_title_photos: "Nom du site - Photos",
+page_title_services: "Nom du site - Services",
+projects_title: "Projets",
+photos_title: "Photos",
         site_name: "[NOM DU SITE]",
         site_slogan: "[Sous-titre ou slogan facultatif]",
 
+photos_title: "Photos",
+
+photo_title_1: "[Titre de la photo]",
+photo_text_1: "[Description de la photo.]",
+
+photo_title_2: "[Titre de la photo]",
+photo_text_2: "[Description de la photo.]",
+
+photo_title_3: "[Titre de la photo]",
+photo_text_3: "[Description de la photo.]",
         nav_home: "Accueil",
         nav_about: "À propos",
         nav_services: "Services",
@@ -376,10 +422,15 @@ privacy_section_5_text:
 
 
     de: {
-        page_title_home: "Name der Website - Startseite",
-        page_title_about: "Name der Website - Über uns",
+      
+page_title_home: "Name der Website - Startseite",
+page_title_about: "Name der Website - Über uns",
+page_title_projects: "Name der Website - Projekte",
+page_title_photos: "Name der Website - Fotos",
+page_title_services: "Name der Website - Dienstleistungen",
 
-        site_name: "[NAME DER WEBSITE]",
+projects_title: "Projekte",
+photos_title: "Fotos",        site_name: "[NAME DER WEBSITE]",
         site_slogan: "[Optionaler Untertitel oder kurzer Slogan]",
 
         nav_home: "Startseite",
@@ -387,6 +438,17 @@ privacy_section_5_text:
         nav_services: "Dienstleistungen",
         nav_projects: "Projekte",
         nav_photos: "Fotos",
+
+photos_title: "Fotos",
+
+photo_title_1: "[Fototitel]",
+photo_text_1: "[Beschreibung des Fotos.]",
+
+photo_title_2: "[Fototitel]",
+photo_text_2: "[Beschreibung des Fotos.]",
+
+photo_title_3: "[Fototitel]",
+photo_text_3: "[Beschreibung des Fotos.]",
 
         language_label: "Sprache:",
 
@@ -503,89 +565,273 @@ privacy_section_5_text:
 const defaultLanguage = "nl";
 
 
+// ========================================
+// TAAL OPHALEN
+// ========================================
+
 function getCurrentLanguage() {
+
+    // 1. Eerst kijken of de taal in de URL staat
+    const urlParams = new URLSearchParams(window.location.search);
+    const urlLanguage = urlParams.get("lang");
+
+    if (urlLanguage && translations[urlLanguage]) {
+        return urlLanguage;
+    }
+
+    // 2. Daarna localStorage gebruiken
     try {
+
         const savedLanguage = localStorage.getItem("language");
 
         if (savedLanguage && translations[savedLanguage]) {
             return savedLanguage;
         }
+
     } catch (error) {
-        // localStorage is niet beschikbaar
+
+        console.warn(
+            "Kan taalvoorkeur niet lezen uit localStorage."
+        );
+
     }
 
+    // 3. Standaardtaal
     return defaultLanguage;
 }
 
 
+// ========================================
+// TAAL OPSLAAN
+// ========================================
+
 function saveLanguage(language) {
+
     try {
+
         localStorage.setItem("language", language);
+
     } catch (error) {
-        // localStorage is niet beschikbaar
+
+        console.warn(
+            "Kan taalvoorkeur niet opslaan in localStorage."
+        );
+
     }
 }
 
+
+// ========================================
+// HUIDIGE PAGINA
+// ========================================
 
 function getCurrentPage() {
+
     return document.documentElement.getAttribute("data-page") || "home";
+
 }
 
+
+// ========================================
+// PAGINATITEL
+// ========================================
 
 function updatePageTitle(language) {
+
     const page = getCurrentPage();
 
-    if (page === "about") {
-        document.title = translations[language].page_title_about;
+    if (
+        page === "about" &&
+        translations[language].page_title_about
+    ) {
+
+        document.title =
+            translations[language].page_title_about;
+
+    } else if (
+        page === "services" &&
+        translations[language].page_title_services
+    ) {
+
+        document.title =
+            translations[language].page_title_services;
+
+    } else if (
+        page === "projects" &&
+        translations[language].page_title_projects
+    ) {
+
+        document.title =
+            translations[language].page_title_projects;
+
+    } else if (
+        page === "photos" &&
+        translations[language].page_title_photos
+    ) {
+
+        document.title =
+            translations[language].page_title_photos;
+
     } else {
-        document.title = translations[language].page_title_home;
+
+        document.title =
+            translations[language].page_title_home;
+
     }
+
 }
 
+
+// ========================================
+// TAAL INSTELLEN
+// ========================================
 
 function setLanguage(language) {
 
+    // Bestaat de taal?
     if (!translations[language]) {
         language = defaultLanguage;
     }
 
+
+    // Alle vertalingen toepassen
     document.querySelectorAll("[data-i18n]").forEach(function(element) {
 
-        const key = element.getAttribute("data-i18n");
+        const key =
+            element.getAttribute("data-i18n");
 
-        if (translations[language][key] !== undefined) {
-            element.innerHTML = translations[language][key];
+        if (
+            translations[language][key] !== undefined
+        ) {
+
+            element.innerHTML =
+                translations[language][key];
+
         }
 
     });
 
-    document.documentElement.lang = language;
 
+    // HTML-taal aanpassen
+    document.documentElement.lang =
+        language;
+
+
+    // Paginatitel aanpassen
     updatePageTitle(language);
 
-    const languageSelect = document.getElementById("language");
+
+    // Select aanpassen
+    const languageSelect =
+        document.getElementById("language");
 
     if (languageSelect) {
-        languageSelect.value = language;
+
+        languageSelect.value =
+            language;
+
     }
 
-    saveLanguage(language);
+
+    // ========================================
+    // BELANGRIJK:
+    // Taal aan alle interne links toevoegen
+    // ========================================
+
+    document.querySelectorAll("a[href]").forEach(function(link) {
+
+        const href =
+            link.getAttribute("href");
+
+        // Alleen interne HTML-pagina's aanpassen
+        if (
+            href &&
+            !href.startsWith("#") &&
+            !href.startsWith("http://") &&
+            !href.startsWith("https://") &&
+            !href.startsWith("mailto:")
+        ) {
+
+            // Bestaande querystring verwijderen
+            const cleanHref =
+                href.split("?")[0];
+
+            // Taal toevoegen
+            link.setAttribute(
+                "href",
+                cleanHref + "?lang=" + language
+            );
+
+        }
+
+    });
+
 }
 
 
-document.addEventListener("DOMContentLoaded", function() {
+// ========================================
+// PAGINA LADEN
+// ========================================
 
-    const languageSelect = document.getElementById("language");
-    const currentLanguage = getCurrentLanguage();
+document.addEventListener(
+    "DOMContentLoaded",
+    function() {
 
-    setLanguage(currentLanguage);
+        const languageSelect =
+            document.getElementById("language");
 
-    if (languageSelect) {
 
-        languageSelect.addEventListener("change", function() {
-            setLanguage(this.value);
-        });
+        // ----------------------------------------
+        // 1. Huidige taal bepalen
+        // ----------------------------------------
+
+        const currentLanguage =
+            getCurrentLanguage();
+
+
+        // ----------------------------------------
+        // 2. Taal opslaan
+        // ----------------------------------------
+
+        saveLanguage(currentLanguage);
+
+
+        // ----------------------------------------
+        // 3. Taal toepassen
+        // ----------------------------------------
+
+        setLanguage(currentLanguage);
+
+
+        // ----------------------------------------
+        // 4. Nieuwe taal kiezen
+        // ----------------------------------------
+
+        if (languageSelect) {
+
+            languageSelect.addEventListener(
+                "change",
+                function() {
+
+                    const selectedLanguage =
+                        this.value;
+
+
+                    // Opslaan
+                    saveLanguage(
+                        selectedLanguage
+                    );
+
+
+                    // Taal onmiddellijk toepassen
+                    setLanguage(
+                        selectedLanguage
+                    );
+
+                }
+            );
+
+        }
 
     }
-
-});
+);
