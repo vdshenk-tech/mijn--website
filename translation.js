@@ -50,6 +50,9 @@ photo_text_3: "[Hier komt de uitleg bij de foto.]",
         about_placeholder_text:
             "Hier kan later tekst, een afbeelding of andere inhoud komen.",
 
+	news_text_1: "Er is momenteel geen nieuws.",
+
+
         contact_title: "Contact",
         contact_name_label: "Naam:",
         contact_name: "[NAAM CONTACTPERSOON]",
@@ -193,7 +196,10 @@ photo_text_3: "[Description of the photo.]",
         about_placeholder_text:
             "Text, an image or other content can be added here later.",
 
-        contact_title: "Contact",
+	news_text_1: "Curently no news.",
+ 
+
+       contact_title: "Contact",
         contact_name_label: "Name:",
         contact_name: "[CONTACT NAME]",
         contact_email_label: "Email:",
@@ -332,7 +338,9 @@ photo_text_3: "[Description de la photo.]",
         about_placeholder_text:
             "Du texte, une image ou un autre contenu pourra être ajouté ici ultérieurement.",
 
-        contact_title: "Contact",
+	news_text_1: "Il n'ya pour l'instant aucune actualité.",
+   
+      contact_title: "Contact",
         contact_name_label: "Nom :",
         contact_name: "[NOM DU CONTACT]",
         contact_email_label: "E-mail :",
@@ -472,6 +480,8 @@ photo_text_3: "[Beschreibung des Fotos.]",
         about_placeholder_text:
             "Hier können später Text, ein Bild oder andere Inhalte eingefügt werden.",
 
+	news_text_1: "Aktuell gibt es keine Neuigkeiten.",
+ 
         contact_title: "Kontakt",
         contact_name_label: "Name:",
         contact_name: "[NAME DER KONTAKTPERSON]",
