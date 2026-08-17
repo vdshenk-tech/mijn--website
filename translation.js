@@ -2,18 +2,18 @@ const translations = {
 
     nl: {
         page_title_home: "Naam website - Home",
-        page_title_about: "Naam website - Over ons",
+        page_title_about: "Naam website - Over mij",
 	page_title_photos: "Naam website - Foto's",
 	page_title_projects: "Naam website - Projecten",
-page_title_services: "Naam website - Diensten",
-projects_title: "Projecten",
-photos_title: "Foto's",
+	page_title_services: "Naam website - Diensten",
+	projects_title: "Projecten",
+	photos_title: "Foto's",
 
         site_name: "[NAAM VAN DE WEBSITE]",
         site_slogan: "[Eventuele ondertitel of korte slogan]",
 
         nav_home: "Home",
-        nav_about: "Over ons",
+        nav_about: "Over mij",
         nav_services: "Diensten",
         nav_projects: "Projecten",
         nav_photos: "Foto's",
@@ -40,7 +40,7 @@ photo_text_3: "[Hier komt de uitleg bij de foto.]",
         placeholder_text:
             "Hier kan eventueel een afbeelding of extra tekst komen.",
 
-        about_title: "Over ons",
+        about_title: "Over mij",
         about_text_1:
             "[Plaats hier de tekst over jezelf, jullie organisatie, vereniging, bedrijf of project.]",
         about_text_2:
@@ -144,7 +144,7 @@ privacy_section_5_text:
 
     en: {
 page_title_home: "Website name - Home",
-page_title_about: "Website name - About us",
+page_title_about: "Website name - About me",
 page_title_projects: "Website name - Projects",
 page_title_photos: "Website name - Photos",
 page_title_services: "Website name - Services",
@@ -165,7 +165,7 @@ photo_text_2: "[Description of the photo.]",
 photo_title_3: "[Photo title]",
 photo_text_3: "[Description of the photo.]",
         nav_home: "Home",
-        nav_about: "About us",
+        nav_about: "About me",
         nav_services: "Services",
         nav_projects: "Projects",
         nav_photos: "Photos",
@@ -183,7 +183,7 @@ photo_text_3: "[Description of the photo.]",
         placeholder_text:
             "An image or additional text can be placed here.",
 
-        about_title: "About us",
+        about_title: "About me",
         about_text_1:
             "[Place your text about yourself, your organization, association, company or project here.]",
         about_text_2:
@@ -322,7 +322,7 @@ photo_text_3: "[Description de la photo.]",
         placeholder_text:
             "Une image ou du texte supplémentaire peut être placé ici.",
 
-        about_title: "À propos de nous",
+        about_title: "À propos de moi",
         about_text_1:
             "[Placez ici le texte sur vous-même, votre organisation, votre association, votre entreprise ou votre projet.]",
         about_text_2:
@@ -424,7 +424,7 @@ privacy_section_5_text:
     de: {
       
 page_title_home: "Name der Website - Startseite",
-page_title_about: "Name der Website - Über uns",
+page_title_about: "Name der Website - Über mich",
 page_title_projects: "Name der Website - Projekte",
 page_title_photos: "Name der Website - Fotos",
 page_title_services: "Name der Website - Dienstleistungen",
@@ -434,7 +434,7 @@ photos_title: "Fotos",        site_name: "[NAME DER WEBSITE]",
         site_slogan: "[Optionaler Untertitel oder kurzer Slogan]",
 
         nav_home: "Startseite",
-        nav_about: "Über uns",
+        nav_about: "Über mich",
         nav_services: "Dienstleistungen",
         nav_projects: "Projekte",
         nav_photos: "Fotos",
@@ -462,7 +462,7 @@ photo_text_3: "[Beschreibung des Fotos.]",
         placeholder_text:
             "Hier kann gegebenenfalls ein Bild oder zusätzlicher Text eingefügt werden.",
 
-        about_title: "Über uns",
+        about_title: "Über mich",
         about_text_1:
             "[Fügen Sie hier den Text über sich selbst, Ihre Organisation, Ihren Verein, Ihr Unternehmen oder Ihr Projekt ein.]",
         about_text_2:
