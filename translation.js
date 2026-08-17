@@ -3,11 +3,11 @@ const translations = {
     nl: {
         page_title_home: "Naam website - Home",
         page_title_about: "Naam website - Over mij",
-	page_title_photos: "Naam website - Foto's",
+	page_title_photos: "Naam website - Kunstwerken",
 	page_title_projects: "Naam website - Nieuws",
 	page_title_services: "Naam website - Diensten",
 	projects_title: "Nieuws",
-	photos_title: "Foto's",
+	photos_title: "Kunstwerken",
 
         site_name: "[NAAM VAN DE WEBSITE]",
         site_slogan: "[Eventuele ondertitel of korte slogan]",
@@ -16,8 +16,8 @@ const translations = {
         nav_about: "Over mij",
         nav_services: "Diensten",
         nav_projects: "Nieuws",
-        nav_photos: "Foto's",
-photos_title: "Foto's",
+        nav_photos: "Kunstwerken",
+photos_title: "Kunstwerken",
 
 photo_title_1: "[Titel foto]",
 photo_text_1: "[Hier komt de uitleg bij de foto.]",
@@ -149,15 +149,15 @@ privacy_section_5_text:
 page_title_home: "Website name - Home",
 page_title_about: "Website name - About me",
 page_title_projects: "Website name - News",
-page_title_photos: "Website name - Photos",
+page_title_photos: "Website name - Artworks",
 page_title_services: "Website name - Services",
 
 projects_title: "News",
-photos_title: "Photos",
+photos_title: "Artworks",
 
         site_name: "[WEBSITE NAME]",
         site_slogan: "[Optional subtitle or short slogan]",
-photos_title: "Photos",
+photos_title: "Artworks",
 
 photo_title_1: "[Photo title]",
 photo_text_1: "[Description of the photo.]",
@@ -171,7 +171,7 @@ photo_text_3: "[Description of the photo.]",
         nav_about: "About me",
         nav_services: "Services",
         nav_projects: "News",
-        nav_photos: "Photos",
+        nav_photos: "Artworks",
 
 
         language_label: "Language:",
@@ -293,14 +293,14 @@ privacy_section_5_text:
 page_title_home: "Nom du site - Accueil",
 page_title_about: "Nom du site - À propos",
 page_title_projects: "Nom du site - Actualités",
-page_title_photos: "Nom du site - Photos",
+page_title_photos: "Nom du site - Œuvres",
 page_title_services: "Nom du site - Services",
 projects_title: "Actualités",
-photos_title: "Photos",
+photos_title: "Œuvres",
         site_name: "[NOM DU SITE]",
         site_slogan: "[Sous-titre ou slogan facultatif]",
 
-photos_title: "Photos",
+photos_title: "Œuvres",
 
 photo_title_1: "[Titre de la photo]",
 photo_text_1: "[Description de la photo.]",
@@ -314,7 +314,7 @@ photo_text_3: "[Description de la photo.]",
         nav_about: "À propos",
         nav_services: "Services",
         nav_projects: "Actualités",
-        nav_photos: "Photos",
+        nav_photos: "Œuvres",
 
         language_label: "Langue :",
 
@@ -434,20 +434,21 @@ privacy_section_5_text:
 page_title_home: "Name der Website - Startseite",
 page_title_about: "Name der Website - Über mich",
 page_title_projects: "Name der Website - Neuigkeiten",
-page_title_photos: "Name der Website - Fotos",
+page_title_photos: "Name der Website - Kunstwerke",
 page_title_services: "Name der Website - Dienstleistungen",
 
 projects_title: "Neuigkeiten",
-photos_title: "Fotos",        site_name: "[NAME DER WEBSITE]",
+photos_title: "Kunstwerke",        
+site_name: "[NAME DER WEBSITE]",
         site_slogan: "[Optionaler Untertitel oder kurzer Slogan]",
 
         nav_home: "Startseite",
         nav_about: "Über mich",
         nav_services: "Dienstleistungen",
         nav_projects: "Neuigkeiten",
-        nav_photos: "Fotos",
+        nav_photos: "Kunstwerke",
 
-photos_title: "Fotos",
+photos_title: "Kunstwerke",
 
 photo_title_1: "[Fototitel]",
 photo_text_1: "[Beschreibung des Fotos.]",
