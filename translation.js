@@ -4,9 +4,9 @@ const translations = {
         page_title_home: "Naam website - Home",
         page_title_about: "Naam website - Over mij",
 	page_title_photos: "Naam website - Foto's",
-	page_title_projects: "Naam website - Projecten",
+	page_title_projects: "Naam website - Nieuws",
 	page_title_services: "Naam website - Diensten",
-	projects_title: "Projecten",
+	projects_title: "Nieuws",
 	photos_title: "Foto's",
 
         site_name: "[NAAM VAN DE WEBSITE]",
@@ -15,7 +15,7 @@ const translations = {
         nav_home: "Home",
         nav_about: "Over mij",
         nav_services: "Diensten",
-        nav_projects: "Projecten",
+        nav_projects: "Nieuws",
         nav_photos: "Foto's",
 photos_title: "Foto's",
 
@@ -145,11 +145,11 @@ privacy_section_5_text:
     en: {
 page_title_home: "Website name - Home",
 page_title_about: "Website name - About me",
-page_title_projects: "Website name - Projects",
+page_title_projects: "Website name - News",
 page_title_photos: "Website name - Photos",
 page_title_services: "Website name - Services",
 
-projects_title: "Projects",
+projects_title: "News",
 photos_title: "Photos",
 
         site_name: "[WEBSITE NAME]",
@@ -167,7 +167,7 @@ photo_text_3: "[Description of the photo.]",
         nav_home: "Home",
         nav_about: "About me",
         nav_services: "Services",
-        nav_projects: "Projects",
+        nav_projects: "News",
         nav_photos: "Photos",
 
 
@@ -286,10 +286,10 @@ privacy_section_5_text:
 
 page_title_home: "Nom du site - Accueil",
 page_title_about: "Nom du site - À propos",
-page_title_projects: "Nom du site - Projets",
+page_title_projects: "Nom du site - Actualités",
 page_title_photos: "Nom du site - Photos",
 page_title_services: "Nom du site - Services",
-projects_title: "Projets",
+projects_title: "Actualités",
 photos_title: "Photos",
         site_name: "[NOM DU SITE]",
         site_slogan: "[Sous-titre ou slogan facultatif]",
@@ -307,7 +307,7 @@ photo_text_3: "[Description de la photo.]",
         nav_home: "Accueil",
         nav_about: "À propos",
         nav_services: "Services",
-        nav_projects: "Projets",
+        nav_projects: "Actualités",
         nav_photos: "Photos",
 
         language_label: "Langue :",
@@ -425,18 +425,18 @@ privacy_section_5_text:
       
 page_title_home: "Name der Website - Startseite",
 page_title_about: "Name der Website - Über mich",
-page_title_projects: "Name der Website - Projekte",
+page_title_projects: "Name der Website - Neuigkeiten",
 page_title_photos: "Name der Website - Fotos",
 page_title_services: "Name der Website - Dienstleistungen",
 
-projects_title: "Projekte",
+projects_title: "Neuigkeiten",
 photos_title: "Fotos",        site_name: "[NAME DER WEBSITE]",
         site_slogan: "[Optionaler Untertitel oder kurzer Slogan]",
 
         nav_home: "Startseite",
         nav_about: "Über mich",
         nav_services: "Dienstleistungen",
-        nav_projects: "Projekte",
+        nav_projects: "Neuigkeiten",
         nav_photos: "Fotos",
 
 photos_title: "Fotos",
