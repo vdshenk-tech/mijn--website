@@ -1,5 +1,4 @@
 const translations = {
-
     nl: {
         page_title_home: "Naam website - Home",
         page_title_about: "Naam website - Over mij",
@@ -9,7 +8,7 @@ const translations = {
 	projects_title: "Nieuws",
 	photos_title: "Kunstwerken",
 
-        site_name: "[NAAM VAN DE WEBSITE]",
+        site_name: "Christine C.",
         site_slogan: "[Eventuele ondertitel of korte slogan]",
 
         nav_home: "Home",
@@ -31,12 +30,18 @@ photo_text_3: "[Hier komt de uitleg bij de foto.]",
         language_label: "Taal:",
 
         welcome_title: "Welkom",
-        welcome_text: "Welkom op de website van",
+	welcome_text: "Welkom op de site van: ",
 
-        introduction:
-            "Hier kun je een <strong>introductietekst</strong> plaatsen. <em>Vertel hier kort wie je bent</em>, <mark>wat je doet en wat bezoekers op deze website kunnen vinden.</mark>",
+introduction:
+    "Kunst is van alle tijden en opent een andere wereld. Het brengt iets naar boven en tegelijk blijft er iets verborgen. De toeschouwer ervaart kunst op zijn eigen manier.<br><br>" +
+    "Het is een moment waarbij de toeschouwer even ontsnapt aan tijd en realiteit om zo ruimte te creëren voor verbeelding en het oproepen van emoties.<br><br>" +
+    "Om Jean-Paul Sartre te citeren: “Pour qu’une conscience puisse imaginer, il faut qu’elle échappe au monde par sa nature même, il faut qu’elle puisse tirer d’elle-même une position de recul par rapport au monde. En un mot il faut qu’elle soit libre”. " +
+    "<em>L'Imaginaire. Psychologie phénoménologique de l'imagination.</em>",
 
-        placeholder_title: "Tekst-/afbeeldingsplaceholder",
+  
+
+
+        placeholder_title: "",
         placeholder_text:
             "Hier kan eventueel een afbeelding of extra tekst komen.",
 
@@ -155,7 +160,7 @@ page_title_services: "Website name - Services",
 projects_title: "News",
 photos_title: "Artworks",
 
-        site_name: "[WEBSITE NAME]",
+        site_name: "Christine C.",
         site_slogan: "[Optional subtitle or short slogan]",
 photos_title: "Artworks",
 
@@ -179,8 +184,10 @@ photo_text_3: "[Description of the photo.]",
         welcome_title: "Welcome",
         welcome_text: "Welcome to the website of",
 
-        introduction:
-            "Here you can place an introductory text. Briefly explain who you are, what you do and what visitors can find on this website.",
+introduction: "Art is timeless and opens up another world. It brings something to the surface while at the same time something remains concealed. Each viewer experiences art in their own way.<br><br>" +
+    "It is a moment in which the viewer briefly escapes time and reality, creating space for imagination and the evocation of emotions.<br><br>" +
+    "To quote Jean-Paul Sartre: “Pour qu’une conscience puisse imaginer, il faut qu’elle échappe au monde par sa nature même, il faut qu’elle puisse tirer d’elle-même une position de recul par rapport au monde. En un mot il faut qu’elle soit libre”. " +
+    "<em>L'Imaginaire. Psychologie phénoménologique de l'imagination.</em>",
 
         placeholder_title: "Text/image placeholder",
         placeholder_text:
@@ -297,7 +304,7 @@ page_title_photos: "Nom du site - Œuvres",
 page_title_services: "Nom du site - Services",
 projects_title: "Actualités",
 photos_title: "Œuvres",
-        site_name: "[NOM DU SITE]",
+         site_name: "Christine C.",
         site_slogan: "[Sous-titre ou slogan facultatif]",
 
 photos_title: "Œuvres",
@@ -321,8 +328,10 @@ photo_text_3: "[Description de la photo.]",
         welcome_title: "Bienvenue",
         welcome_text: "Bienvenue sur le site de",
 
-        introduction:
-            "Vous pouvez placer ici un texte d'introduction. Expliquez brièvement qui vous êtes, ce que vous faites et ce que les visiteurs peuvent trouver sur ce site.",
+introduction:"Art is timeless and opens up another world. It brings something to the surface while at the same time something remains concealed. Each viewer experiences art in their own way.<br><br>" +
+    "It is a moment in which the viewer briefly escapes time and reality, creating space for imagination and the evocation of emotions.<br><br>" +
+    "To quote Jean-Paul Sartre: “Pour qu’une conscience puisse imaginer, il faut qu’elle échappe au monde par sa nature même, il faut qu’elle puisse tirer d’elle-même une position de recul par rapport au monde. En un mot il faut qu’elle soit libre”. " +
+    "<em>L'Imaginaire. Psychologie phénoménologique de l'imagination.</em>",
 
         placeholder_title: "Emplacement texte/image",
         placeholder_text:
@@ -439,7 +448,7 @@ page_title_services: "Name der Website - Dienstleistungen",
 
 projects_title: "Neuigkeiten",
 photos_title: "Kunstwerke",        
-site_name: "[NAME DER WEBSITE]",
+        site_name: "Christine C.",
         site_slogan: "[Optionaler Untertitel oder kurzer Slogan]",
 
         nav_home: "Startseite",
@@ -464,8 +473,10 @@ photo_text_3: "[Beschreibung des Fotos.]",
         welcome_title: "Willkommen",
         welcome_text: "Willkommen auf der Website von",
 
-        introduction:
-            "Hier können Sie einen Einführungstext einfügen. Erklären Sie kurz, wer Sie sind, was Sie tun und was Besucher auf dieser Website finden können.",
+introduction: "Kunst ist zeitlos und eröffnet eine andere Welt. Sie bringt etwas zum Vorschein, während zugleich etwas verborgen bleibt. Jeder Betrachter erlebt Kunst auf seine eigene Weise.<br><br>" +
+    "Es ist ein Moment, in dem der Betrachter für einen Augenblick Zeit und Realität entflieht und so Raum für Fantasie und das Hervorrufen von Emotionen schafft.<br><br>" +
+    "Um Jean-Paul Sartre zu zitieren: “Pour qu’une conscience puisse imaginer, il faut qu’elle échappe au monde par sa nature même, il faut qu’elle puisse tirer d’elle-même une position de recul par rapport au monde. En un mot il faut qu’elle soit libre”. " +
+    "<em>L'Imaginaire. Psychologie phénoménologique de l'imagination.</em>",
 
         placeholder_title: "Text-/Bildplatzhalter",
         placeholder_text:
