@@ -328,9 +328,9 @@ photo_text_3: "[Description de la photo.]",
         welcome_title: "Bienvenue",
         welcome_text: "Bienvenue sur le site de",
 
-introduction:"Art is timeless and opens up another world. It brings something to the surface while at the same time something remains concealed. Each viewer experiences art in their own way.<br><br>" +
-    "It is a moment in which the viewer briefly escapes time and reality, creating space for imagination and the evocation of emotions.<br><br>" +
-    "To quote Jean-Paul Sartre: “Pour qu’une conscience puisse imaginer, il faut qu’elle échappe au monde par sa nature même, il faut qu’elle puisse tirer d’elle-même une position de recul par rapport au monde. En un mot il faut qu’elle soit libre”. " +
+introduction:"L'art est intemporel et ouvre sur un autre monde. Il fait émerger quelque chose tout en laissant une part de mystère. Chaque spectateur vit l'art à sa manière.<br><br>" +
+    "C'est un moment où le spectateur s'évade brièvement du temps et de la réalité, laissant place à l'imagination et à l'éveil des émotions.<br><br>" +
+    "Pour citer Jean-Paul Sartre: “Pour qu’une conscience puisse imaginer, il faut qu’elle échappe au monde par sa nature même, il faut qu’elle puisse tirer d’elle-même une position de recul par rapport au monde. En un mot il faut qu’elle soit libre”. " +
     "<em>L'Imaginaire. Psychologie phénoménologique de l'imagination.</em>",
 
         placeholder_title: "Emplacement texte/image",
