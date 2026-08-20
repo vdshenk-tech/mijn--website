@@ -35,7 +35,7 @@ img {
         linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.10)),
         url("./images/banner.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: center 40%;
     background-repeat: no-repeat;
 
     display: flex;
