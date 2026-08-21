@@ -429,7 +429,7 @@ footer details summary:hover {
 
 @media (max-width: 700px) {
 
-    .banner {
+     .banner {
         min-height: 180px;
         padding: 25px 15px;
     }
@@ -454,10 +454,24 @@ footer details summary:hover {
         padding: 14px 15px;
     }
 
+ /* =========================
+       Taalkeuze op mobiel
+       ========================= */
+
+    nav li.language-selector {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        padding: 14px 15px;
+    }
+
     main {
         padding: 20px 10px;
     }
 
+
+ 
     .content {
         padding: 20px 15px;
         border-radius: 6px;
