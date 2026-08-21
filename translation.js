@@ -1,4 +1,7 @@
 const translations = {
+//--------------------
+// nederlands
+//--------------------
     nl: {
         page_title_home: "Naam website - Home",
         page_title_about: "Naam website - Over mij",
@@ -27,7 +30,7 @@ photo_text_2: "[Hier komt de uitleg bij de foto.]",
 photo_title_3: "[Titel foto]",
 photo_text_3: "[Hier komt de uitleg bij de foto.]",
 
-        language_label: "Taal:",
+        language_label: "",
 
         welcome_title: "Welkom",
 	welcome_text: "Welkom op de site van: ",
@@ -149,7 +152,9 @@ privacy_section_5_text:
 
     },
 
-
+//--------------------
+// start engels
+//--------------------
     en: {
 page_title_home: "Website name - Home",
 page_title_about: "Website name - About me",
@@ -179,7 +184,7 @@ photo_text_3: "[Description of the photo.]",
         nav_photos: "Artworks",
 
 
-        language_label: "Language:",
+        language_label: "",
 
         welcome_title: "Welcome",
         welcome_text: "Welcome to the website of",
@@ -293,7 +298,9 @@ privacy_section_5_title: "5. Changes",
 privacy_section_5_text:
     "We may update this privacy policy if our website or the way in which we process personal data changes. The most recent version will always be available on this page."
     },
-
+//--------------------
+// start frans
+//--------------------
 
     fr: {
 
@@ -323,7 +330,7 @@ photo_text_3: "[Description de la photo.]",
         nav_projects: "Actualités",
         nav_photos: "Œuvres",
 
-        language_label: "Langue :",
+        language_label: "",
 
         welcome_title: "Bienvenue",
         welcome_text: "Bienvenue sur le site de",
@@ -437,7 +444,9 @@ privacy_section_5_text:
     "Nous pouvons modifier cette politique de confidentialité si notre site ou la manière dont nous traitons les données personnelles évolue. La version la plus récente sera toujours disponible sur cette page."
     },
 
-
+//--------------------
+// start duits
+//--------------------
     de: {
       
 page_title_home: "Name der Website - Startseite",
@@ -468,7 +477,7 @@ photo_text_2: "[Beschreibung des Fotos.]",
 photo_title_3: "[Fototitel]",
 photo_text_3: "[Beschreibung des Fotos.]",
 
-        language_label: "Sprache:",
+        language_label: "",
 
         welcome_title: "Willkommen",
         welcome_text: "Willkommen auf der Website von",
