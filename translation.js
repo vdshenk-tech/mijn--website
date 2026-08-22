@@ -12,7 +12,7 @@ const translations = {
 	photos_title: "Kunstwerken",
 
         site_name: "Christine C.",
-        site_slogan: "[Eventuele ondertitel of korte slogan]",
+        site_slogan: "<em>Orginal Fine Arts</em>",
 
         nav_home: "Home",
         nav_about: "Over mij",
@@ -166,7 +166,7 @@ projects_title: "News",
 photos_title: "Artworks",
 
         site_name: "Christine C.",
-        site_slogan: "[Optional subtitle or short slogan]",
+        site_slogan: "<em>Orginal Fine Arts</em>",
 photos_title: "Artworks",
 
 photo_title_1: "[Photo title]",
@@ -312,7 +312,7 @@ page_title_services: "Nom du site - Services",
 projects_title: "Actualités",
 photos_title: "Œuvres",
          site_name: "Christine C.",
-        site_slogan: "[Sous-titre ou slogan facultatif]",
+        site_slogan: "<em>Orginal Fine Arts</em>",
 
 photos_title: "Œuvres",
 
@@ -458,7 +458,7 @@ page_title_services: "Name der Website - Dienstleistungen",
 projects_title: "Neuigkeiten",
 photos_title: "Kunstwerke",        
         site_name: "Christine C.",
-        site_slogan: "[Optionaler Untertitel oder kurzer Slogan]",
+        site_slogan: "<em>Orginal Fine Arts</em>",
 
         nav_home: "Startseite",
         nav_about: "Über mich",

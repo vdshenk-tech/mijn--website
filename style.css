@@ -30,12 +30,12 @@ img {
    ========================= */
 
 .banner {
-    min-height: 220px;
+    height: 220px;
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.10)),
         url("./images/banner.jpg");
-    background-size: cover;
-    background-position: center 40%;
+        background-size: cover;
+        background-position: center;
     background-repeat: no-repeat;
 
     display: flex;
@@ -56,7 +56,7 @@ img {
 }
 
 .banner p {
-    font-size: clamp(16px, 2.5vw, 18px);
+    font-size: clamp(16px, 2.5vw, 20px);
     margin: 10px 0 0;
 }
 
@@ -429,9 +429,9 @@ footer details summary:hover {
 
 @media (max-width: 700px) {
 
-     .banner {
-        min-height: 180px;
-        padding: 25px 15px;
+    .banner {
+        height: 180px;
+        padding: 25px 15px;   
     }
 
     .banner h1 {
@@ -570,10 +570,11 @@ footer details summary:hover {
 
 @media (max-width: 400px) {
 
-    .banner {
-        min-height: 160px;
-        padding: 20px 10px;
-    }
+  
+  .banner {
+        height: 160px;
+        padding: 20px 10px;    
+	}
 
     nav a {
         padding: 12px 10px;
@@ -596,3 +597,4 @@ footer details summary:hover {
     }
 
 }
+
