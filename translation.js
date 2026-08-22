@@ -86,7 +86,7 @@ introduction:
 
         disclaimer_title: "Disclaimer",
         disclaimer_text_1:
-            "De informatie op deze website wordt uitsluitend ter informatie verstrekt. Aan deze informatie kunnen geen rechten worden ontleend. Momenteel is deze website louter informatief, ter voorbereiding van de opstart van mijn activiteiten. Heb je nu al vragen of wil je in de toekomst samenwerken? Stuur gerust een e-mail naar …",
+            "De informatie op deze website wordt uitsluitend ter informatie verstrekt. Aan deze informatie kunnen geen rechten worden ontleend. Momenteel is deze website louter informatief, ter voorbereiding van de opstart van mijn activiteiten. Heb je nu al vragen? Stuur gerust een e-mail naar …",
         disclaimer_text_2:
             "Bijvoorbeeld: Ondanks dat deze website met de grootste zorg is samengesteld, kan [NAAM VAN DE WEBSITE] niet garanderen dat alle informatie volledig, juist en actueel is.",
 
@@ -236,7 +236,7 @@ introduction: "Art is timeless and opens up another world. It brings something t
 
         disclaimer_title: "Disclaimer",
         disclaimer_text_1:
-            "The information contained on this website is provided for informational purposes only. No rights may be derived from it. At present, this website is purely informational and is intended to prepare for the launch of my activities. Do you already have questions or would you like to collaborate in the future? Feel free to send an email to …",
+            "The information contained on this website is provided for informational purposes only. No rights may be derived from it. At present, this website is purely informational and is intended to prepare for the launch of my activities. Do you already have questions? Feel free to send an email to …",
         disclaimer_text_2:
             "For example: Although this website has been compiled with the greatest possible care, [WEBSITE NAME] cannot guarantee that all information is complete, correct and up to date.",
 
@@ -381,7 +381,7 @@ introduction:"L'art est intemporel et ouvre sur un autre monde. Il fait émerger
 
         disclaimer_title: "Avertissement",
         disclaimer_text_1:
-            "Les informations contenues sur ce site sont fournies à titre purement informatif. Aucun droit ne peut en être tiré. Actuellement, ce site est uniquement informatif et a été créé en préparation du lancement de mes activités. Vous avez déjà des questions ou souhaitez collaborer à l’avenir ? N’hésitez pas à envoyer un e-mail à …",
+            "Les informations contenues sur ce site sont fournies à titre purement informatif. Aucun droit ne peut en être tiré. Actuellement, ce site est uniquement informatif et a été créé en préparation du lancement de mes activités. Vous avez déjà des questions? N’hésitez pas à envoyer un e-mail à …",
         disclaimer_text_2:
             "Par exemple : Bien que ce site ait été réalisé avec le plus grand soin, [NOM DU SITE] ne peut garantir que toutes les informations sont complètes, correctes et à jour.",
 
@@ -528,7 +528,7 @@ company_vat: "[UST-IDNR.]",
 
         disclaimer_title: "Haftungsausschluss",
         disclaimer_text_1:
-            "Die auf dieser Website enthaltenen Informationen dienen ausschließlich zu Informationszwecken. Daraus können keine Rechte abgeleitet werden. Derzeit dient diese Website lediglich zu Informationszwecken und zur Vorbereitung der Aufnahme meiner Tätigkeit. Haben Sie bereits Fragen oder möchten Sie in Zukunft zusammenarbeiten? Schreiben Sie gerne eine E-Mail an …",
+            "Die auf dieser Website enthaltenen Informationen dienen ausschließlich zu Informationszwecken. Daraus können keine Rechte abgeleitet werden. Derzeit dient diese Website lediglich zu Informationszwecken und zur Vorbereitung der Aufnahme meiner Tätigkeit. Haben Sie bereits Fragen? Schreiben Sie gerne eine E-Mail an …",
         disclaimer_text_2:
             "Zum Beispiel: Obwohl diese Website mit größtmöglicher Sorgfalt erstellt wurde, kann [NAME DER WEBSITE] nicht garantieren, dass alle Informationen vollständig, korrekt und aktuell sind.",
 
