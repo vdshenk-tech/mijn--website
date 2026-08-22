@@ -4,7 +4,7 @@ const translations = {
 //--------------------
     nl: {
         page_title_home: "Naam website - Home",
-        page_title_about: "Naam website - Over mij",
+        page_title_about: "Naam website - Introductie",
 	page_title_photos: "Naam website - Kunstwerken",
 	page_title_projects: "Naam website - Nieuws",
 	page_title_services: "Naam website - Diensten",
@@ -15,7 +15,7 @@ const translations = {
         site_slogan: "<em>Orginal Fine Arts</em>",
 
         nav_home: "Home",
-        nav_about: "Over mij",
+        nav_about: "Introductie",
         nav_services: "Diensten",
         nav_projects: "Nieuws",
         nav_photos: "Kunstwerken",
@@ -48,11 +48,10 @@ introduction:
         placeholder_text:
             "Hier kan eventueel een afbeelding of extra tekst komen.",
 
-        about_title: "Over mij",
-        about_text_1:
-            "[Plaats hier de tekst over jezelf, jullie organisatie, vereniging, bedrijf of project.]",
-        about_text_2:
-            "[Extra informatie, geschiedenis, doelstellingen of andere informatie kan hier worden toegevoegd.]",
+        about_title: "Introductie",
+        about_text_1: "Christine C. rondde in 2017 haar opleiding Beeldende Kunst, richting schilderkunst, af in Sint-Truiden. In haar artistieke praktijk onderzoekt zij de wisselwerking tussen observatie, verbeelding en innerlijke beleving. Haar inspiratie vindt zij in de natuur, literatuur, maatschappelijke thema’s, filosofie en in spontane indrukken die zich aandienen tijdens het maakproces. <br><br>Haar schilderijen ontstaan vaak vanuit een verhaal, zoals bij het schilderij over <em>De blik van de andere</em>, maar kunnen evengoed vertrekken vanuit kleur, vorm of intuïtie. Binnen haar oeuvre beweegt zij zich tussen figuratie en abstractie. Een uitgesproken kleurenpalet speelt daarbij een centrale rol: kleur wordt ingezet als drager van sfeer, beweging en betekenis. C. werkt voornamelijk met olieverf, een medium dat haar toelaat om diepte, gelaagdheid en levendige kleurintensiteit in haar werk te brengen.<br><br>In haar artistieke ontwikkeling laat zij zich inspireren door kunstenaars als Matisse, Cézanne, Kandinsky, Hilma af Klint en Raveel. Hun benadering van kleur, compositie, vorm en expressie vormt een belangrijke referentie binnen haar eigen zoektocht. Voor C. is kunst maken een voortdurend groeiproces, waarin creativiteit, vernieuwing en onderzoek centraal staan. Zij beschouwt kunst als een universele taal die mensen kan verbinden, ruimte biedt voor reflectie en een helende werking kan hebben. <br><br>Geniet van het aanschouwen!",
+           
+        about_text_2:" ",
         about_placeholder_title:
             "Placeholder voor extra informatie",
         about_placeholder_text:
@@ -199,16 +198,16 @@ introduction: "Art is timeless and opens up another world. It brings something t
             "An image or additional text can be placed here.",
 
         about_title: "About me",
-        about_text_1:
-            "[Place your text about yourself, your organization, association, company or project here.]",
+        about_text_1: 
+"Christine C. completed her education in Fine Arts, specializing in painting, in Sint-Truiden in 2017. In her artistic practice, she explores the interplay between observation, imagination and inner experience. She draws inspiration from nature, literature, social themes, philosophy and the spontaneous impressions that arise during the creative process.<br><br>Her paintings often originate from a story, as in the painting about <em>The Gaze of the Other</em>, but they may just as well begin with colour, form or intuition. Within her body of work, she moves between figuration and abstraction. A distinctive colour palette plays a central role: colour is used as a carrier of atmosphere, movement and meaning. C. works mainly with oil paint, a medium that allows her to bring depth, layering and vivid colour intensity into her work. <br><br>In her artistic development, she is inspired by artists such as Matisse, Cézanne, Kandinsky, Hilma af Klint and Raveel. Their approach to colour, composition, form and expression serves as an important reference in her own artistic search. For Chevalier, making art is an ongoing process of growth, in which creativity, innovation and research are central. She sees art as a universal language that can connect people, offer space for reflection and have a healing effect.<br><br>Enjoy contemplating the work!",
         about_text_2:
-            "[Additional information, history, objectives or other information can be added here.]",
+            "",
         about_placeholder_title:
             "Placeholder for additional information",
         about_placeholder_text:
             "Text, an image or other content can be added here later.",
 
-	news_text_1: "Curently no news.",
+	news_text_1: "Currently no news.",
  
 
        contact_title: "Contact",
@@ -344,11 +343,11 @@ introduction:"L'art est intemporel et ouvre sur un autre monde. Il fait émerger
         placeholder_text:
             "Une image ou du texte supplémentaire peut être placé ici.",
 
-        about_title: "À propos de moi",
+        about_title: "À propos",
         about_text_1:
-            "[Placez ici le texte sur vous-même, votre organisation, votre association, votre entreprise ou votre projet.]",
+            "Christine C. a achevé en 2017 sa formation en arts plastiques, orientation peinture, à Saint-Trond. Dans sa pratique artistique, elle explore l’interaction entre l’observation, l’imagination et l’expérience intérieure. Elle puise son inspiration dans la nature, la littérature, les thèmes sociétaux, la philosophie ainsi que dans les impressions spontanées qui surgissent au cours du processus de création.<br><br>Ses peintures naissent souvent d’un récit, comme dans le tableau consacré au <em>Regard de l’autre</em>, mais elles peuvent tout aussi bien partir de la couleur, de la forme ou de l’intuition. Dans son œuvre, elle évolue entre figuration et abstraction. Une palette de couleurs affirmée y joue un rôle central : la couleur est utilisée comme porteuse d’atmosphère, de mouvement et de signification. C. travaille principalement à l’huile, un médium qui lui permet d’apporter profondeur, stratification et intensité chromatique vivante à son travail. <br><br>Dans son développement artistique, elle se laisse inspirer par des artistes tels que Matisse, Cézanne, Kandinsky, Hilma af Klint et Raveel. Leur approche de la couleur, de la composition, de la forme et de l’expression constitue une référence importante dans sa propre recherche. Pour Chevalier, créer de l’art est un processus de croissance continu, dans lequel la créativité, l’innovation et la recherche occupent une place centrale. Elle considère l’art comme un langage universel capable de relier les personnes, d’offrir un espace de réflexion et d’exercer une action réparatrice.<br><br>Bonne contemplation !",
         about_text_2:
-            "[Des informations supplémentaires, l'histoire, les objectifs ou d'autres informations peuvent être ajoutés ici.]",
+            "",
         about_placeholder_title:
             "Emplacement pour des informations supplémentaires",
         about_placeholder_text:
@@ -493,9 +492,9 @@ introduction: "Kunst ist zeitlos und eröffnet eine andere Welt. Sie bringt etwa
 
         about_title: "Über mich",
         about_text_1:
-            "[Fügen Sie hier den Text über sich selbst, Ihre Organisation, Ihren Verein, Ihr Unternehmen oder Ihr Projekt ein.]",
+            "Christine C. schloss 2017 ihre Ausbildung in Bildender Kunst mit Schwerpunkt Malerei in Sint-Truiden ab. In ihrer künstlerischen Praxis untersucht sie das Zusammenspiel von Beobachtung, Vorstellungskraft und innerem Erleben. Ihre Inspiration findet sie in der Natur, der Literatur, gesellschaftlichen Themen, der Philosophie sowie in spontanen Eindrücken, die sich während des Schaffensprozesses einstellen.<br><br>Ihre Gemälde entstehen häufig aus einer Geschichte heraus, wie etwa bei dem Bild über <em>Den Blick des Anderen</em>, können aber ebenso von Farbe, Form oder Intuition ausgehen. Innerhalb ihres Œuvres bewegt sie sich zwischen Figuration und Abstraktion. Eine ausgeprägte Farbpalette spielt dabei eine zentrale Rolle: Farbe wird als Trägerin von Atmosphäre, Bewegung und Bedeutung eingesetzt. C. arbeitet vorwiegend mit Ölfarbe, einem Medium, das es ihr ermöglicht, Tiefe, Vielschichtigkeit und lebendige Farbintensität in ihre Arbeiten einzubringen.<br><br>In ihrer künstlerischen Entwicklung lässt sie sich von Künstlern wie Matisse, Cézanne, Kandinsky, Hilma af Klint und Raveel inspirieren. Deren Umgang mit Farbe, Komposition, Form und Ausdruck bildet eine wichtige Referenz innerhalb ihrer eigenen Suche. Für Chevalier ist Kunstschaffen ein fortwährender Wachstumsprozess, in dem Kreativität, Erneuerung und Forschung im Mittelpunkt stehen. Sie betrachtet Kunst als eine universelle Sprache, die Menschen verbinden, Raum für Reflexion bieten und eine heilende Wirkung entfalten kann.<br><br>Genießen Sie das Betrachten!",
         about_text_2:
-            "[Zusätzliche Informationen, Geschichte, Ziele oder andere Informationen können hier hinzugefügt werden.]",
+            "",
         about_placeholder_title:
             "Platzhalter für zusätzliche Informationen",
         about_placeholder_text:
