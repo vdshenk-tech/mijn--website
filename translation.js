@@ -30,6 +30,9 @@ photo_text_2: "Olieverf op doek 50 x 70 cm",
 photo_title_3: "Hyperobject",
 photo_text_3: "Olieverf op doek 100 x 100 cm",
 
+photo_title_4: "Joie de vivre",
+photo_text_4: "Olieverf op doek 70 x 70 cm",
+
         language_label: "",
 
         welcome_title: "Welkom",
@@ -176,6 +179,11 @@ photo_text_2: "[Description of the photo.]",
 
 photo_title_3: "[Photo title]",
 photo_text_3: "[Description of the photo.]",
+
+photo_title_4: "Joie de vivre",
+photo_text_4: "Olieverf op doek 70 x 70 cm",
+
+
         nav_home: "Home",
         nav_about: "About me",
         nav_services: "Services",
@@ -323,6 +331,11 @@ photo_text_2: "[Description de la photo.]",
 
 photo_title_3: "[Titre de la photo]",
 photo_text_3: "[Description de la photo.]",
+
+photo_title_4: "Joie de vivre",
+photo_text_4: "Olieverf op doek 70 x 70 cm",
+
+
         nav_home: "Accueil",
         nav_about: "À propos",
         nav_services: "Services",
@@ -475,6 +488,11 @@ photo_text_2: "[Beschreibung des Fotos.]",
 
 photo_title_3: "[Fototitel]",
 photo_text_3: "[Beschreibung des Fotos.]",
+
+photo_title_4: "Joie de vivre",
+photo_text_4: "Olieverf op doek 70 x 70 cm",
+
+
 
         language_label: "",
 
