@@ -11,7 +11,7 @@ const translations = {
 	projects_title: "Nieuws",
 	photos_title: "Kunstwerken",
 
-        site_name: "Christine C.",
+        site_name: "-- Deze website is momenteel in ontwikkeling --",
         site_slogan: "<em>Orginal Fine Arts</em>",
 
         nav_home: "Home",
@@ -167,7 +167,7 @@ page_title_services: "Website name - Services",
 projects_title: "News",
 photos_title: "Artworks",
 
-        site_name: "Christine C.",
+        site_name: "-- Deze website is momenteel in ontwikkeling --",
         site_slogan: "<em>Orginal Fine Arts</em>",
 photos_title: "Artworks",
 
@@ -318,7 +318,7 @@ page_title_photos: "Nom du site - Œuvres",
 page_title_services: "Nom du site - Services",
 projects_title: "Actualités",
 photos_title: "Œuvres",
-         site_name: "Christine C.",
+         site_name: "-- Deze website is momenteel in ontwikkeling --",
         site_slogan: "<em>Orginal Fine Arts</em>",
 
 photos_title: "Œuvres",
@@ -469,7 +469,7 @@ page_title_services: "Name der Website - Dienstleistungen",
 
 projects_title: "Neuigkeiten",
 photos_title: "Kunstwerke",        
-        site_name: "Christine C.",
+        site_name: "-- Deze website is momenteel in ontwikkeling --",
         site_slogan: "<em>Orginal Fine Arts</em>",
 
         nav_home: "Startseite",
