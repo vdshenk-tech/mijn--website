@@ -108,9 +108,11 @@ privacy_section_2_text:
     "Via deze website verzamelen of bewaren wij zelf geen persoonsgegevens. Er is geen contactformulier, geen inlogsysteem en geen database waarin persoonsgegevens van bezoekers worden opgeslagen.",
 
 privacy_section_2_email:
-    "Wanneer je contact met ons opneemt via e-mail, ontvangen wij uiteraard wel de gegevens die je ons daarbij zelf verstrekt. Deze gebruiken wij uitsluitend om je vraag of bericht te beantwoorden.",
+"Wanneer je contact met ons opneemt via e-mail, ontvangen wij uiteraard wel de persoonsgegevens die je ons daarbij zelf verstrekt, zoals je naam, e-mailadres en de inhoud van je bericht. Deze gegevens gebruiken wij uitsluitend om je vraag of bericht te beantwoorden en, indien van toepassing, om verder met je te communiceren over een kunstwerk.",
+
 
 privacy_section_3_title: "3. Serverlogs van onze hostingpartij",
+
 privacy_section_3_text:
     "Onze website wordt gehost door EDPnet. Wanneer je onze website bezoekt, kan de webserver van EDPnet automatisch technische gegevens registreren in zogenaamde serverlogs.",
 
@@ -257,12 +259,16 @@ privacy_section_1_text:
 privacy_section_1_storage:
     "To remember your language preference, this website uses local storage (localStorage) in your browser. Only the language you have selected is stored. This information is not sent to our server and is not used for tracking or marketing.",
 
+
+
 privacy_section_2_title: "2. Personal data we process",
+
+
 privacy_section_2_text:
     "We do not collect or store personal data through this website ourselves. There is no contact form, login system or database in which visitors' personal data is stored.",
 
 privacy_section_2_email:
-    "If you contact us by email, we will of course receive the information you provide in your message. We use this information solely to respond to your question or message.",
+    "When you contact us by email, we naturally receive the personal data that you provide to us, such as your name, email address and the content of your message. We use this information solely to respond to your question or message and, where applicable, to communicate further with you about a work of art.",
 
 privacy_section_3_title: "3. Server logs of our hosting provider",
 privacy_section_3_text:
@@ -412,7 +418,7 @@ privacy_section_2_text:
     "Nous ne collectons ni ne conservons nous-mêmes de données personnelles via ce site web. Il n'y a pas de formulaire de contact, de système de connexion ni de base de données contenant les données personnelles des visiteurs.",
 
 privacy_section_2_email:
-    "Si vous nous contactez par e-mail, nous recevons bien entendu les informations que vous nous fournissez dans votre message. Nous utilisons ces informations uniquement pour répondre à votre question ou à votre message.",
+"Lorsque vous nous contactez par e-mail, nous recevons bien entendu les données à caractère personnel que vous nous communiquez vous-même, telles que votre nom, votre adresse e-mail et le contenu de votre message. Nous utilisons ces données uniquement pour répondre à votre question ou à votre message et, le cas échéant, pour poursuivre nos échanges avec vous au sujet d’une œuvre d’art.",
 
 privacy_section_3_title: "3. Journaux du serveur de notre hébergeur",
 privacy_section_3_text:
@@ -564,7 +570,7 @@ privacy_section_2_text:
     "Wir erheben oder speichern selbst keine personenbezogenen Daten über diese Website. Es gibt kein Kontaktformular, kein Anmeldesystem und keine Datenbank, in der personenbezogene Daten von Besuchern gespeichert werden.",
 
 privacy_section_2_email:
-    "Wenn Sie uns per E-Mail kontaktieren, erhalten wir selbstverständlich die Informationen, die Sie uns in Ihrer Nachricht mitteilen. Wir verwenden diese Informationen ausschließlich zur Beantwortung Ihrer Frage oder Nachricht.",
+"Wenn Sie uns per E-Mail kontaktieren, erhalten wir selbstverständlich die personenbezogenen Daten, die Sie uns dabei selbst mitteilen, wie beispielsweise Ihren Namen, Ihre E-Mail-Adresse und den Inhalt Ihrer Nachricht. Wir verwenden diese Daten ausschließlich, um Ihre Frage oder Nachricht zu beantworten und gegebenenfalls mit Ihnen über ein Kunstwerk weiter zu kommunizieren.",
 
 privacy_section_3_title: "3. Serverprotokolle unseres Hostinganbieters",
 privacy_section_3_text:
